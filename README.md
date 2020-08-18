@@ -23,29 +23,24 @@ Type here: courses aligned
 
 Type here: universities mapped
 
-<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Name of Developer | <b> Paras Nath Singh
 :--|:--|
-<b> Institute | <b> My Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department in which you work
-
+<b> Institute | <b> United College of Engineering and Research
+<b> Email id|     <b> singhparascse99@gmail.com
+<b> Department | Computer Science & Engineering
 #### Mentor Details
-
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> Dr Sangeeta Arora
 :--|:--|
 <b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
+<b> Email id|     <b>  sangeeta.arora@kiet.edu
 <b> Department | Name of the department
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Full name | Faculty | Dept Name | Name of the Insitute, City | abc@example.com
-2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
+1 | Harsh Dhussa | Student | IT | United College of Engineering and Research,Prayagraj | harshdhussa@gmail.com
+2 | Rishabh Shukla| Student | IT | United College of Engineering and Research,Prayagraj |rishabhshukla321@gmail.com
+3 | Kshitiz Saxena| Student | IT| United College of Engineering and Research,Prayagraj |kshitizspn2000@gmail.com
+4 | Akash Goswami| Student | IT | United College of Engineering and Research,Prayagraj |ag28796@gmail.com
 
-
-<br>
-for more details on Rounds visit : <b> [HERE](http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/List-of-Rounds/blob/master/README.md) </b>
