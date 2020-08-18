@@ -31,9 +31,9 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 #### Mentor Details
 <b>Mentored by | <b> Dr Sangeeta Arora
 :--|:--|
-<b> Institute | <b> Institute name
+<b> Institute | <b> KIET Group of Institutions
 <b> Email id|     <b>  sangeeta.arora@kiet.edu
-<b> Department | Name of the department
+<b> Department | Computer Application
 
 #### Contributors List
 
