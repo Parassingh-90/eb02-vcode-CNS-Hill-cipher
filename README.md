@@ -13,7 +13,7 @@ Type here: berif description of this experiment
 
 <h5> Target Audience : </h5>
 
-Type here: B.tech(CS/IT)
+B.tech(CS/IT)
 
 <h5> Course Alignment : </h5>
 
@@ -21,7 +21,7 @@ Type here: courses aligned
 
 <h5> Universities Mapped : </h5>
 
-Type here: Dr. A.P.J. Abdul Kalam Technical University(AKTU)
+Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 
 <b>Name of Developer | <b> Paras Nath Singh
 :--|:--|
