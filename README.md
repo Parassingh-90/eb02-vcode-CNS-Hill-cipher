@@ -2,7 +2,7 @@
 <b>Discipline | <b>Information Tecchnology
 :--|:--|
 <b> Lab | <b> Cryptography & Network Security
-<b> Experiment|     <b> 1.Encryption and Decryption using PlayFair Cipher
+<b> Experiment|     <b> 1.Write a Java Program to perform Encryption and Decryption using  Hill Cipher
 <h5> About the Lab (Objective) : </h5>
 
 Type here: berif description of the lab
@@ -17,7 +17,7 @@ B.tech(CS/IT)
 
 <h5> Course Alignment : </h5>
 
-Type here: courses aligned
+This experiment is alligned with an introductory course on Cryptography
 
 <h5> Universities Mapped : </h5>
 
