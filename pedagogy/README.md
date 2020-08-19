@@ -1,5 +1,5 @@
 ## Pedagogy (Round 1)
-<p align="center">
+<p>
 <br>
 <br>
 <b>Experiment: Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a> <br>
