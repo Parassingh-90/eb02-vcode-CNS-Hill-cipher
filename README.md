@@ -5,7 +5,7 @@
 <b> Experiment|     <b> 1.Write a Java Program to perform Encryption and Decryption using  Hill Cipher
 <h5> About the Lab (Objective) : </h5>
 
-Type here: berif description of the lab
+The objective of this lab is that student must able to know encryption and decryption process to secure message using Hill Cipher 
 
 <h5> About the Experiment : </h5>
 
