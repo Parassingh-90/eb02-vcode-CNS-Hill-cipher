@@ -2,7 +2,7 @@
 <p align="center">
 <br>
 <br>
-<b> Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a> <br>
+<b> Write a Java Program to perform Encryption and Decryption using Hill Cipher <br>
 </p>
 
 <b>Discipline | <b>Information Technology
