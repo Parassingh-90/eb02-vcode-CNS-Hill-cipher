@@ -60,7 +60,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to understand the concept of encryption and decryption using Hill Cipher| Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| User will be able to apply the concept of Hill Cipher and try to solve problem. | Type the task that <br> student will perform | 1 Hill cipher is an example of ____________ <br> A. mono-alphabetic cipher <br> B. substitution cipher <br> C.transposition cipher <br> <b> D. additive cipher </b> <br> (B) <br> 2 Encryption in hill cipher is done using ______________ <br> A. matrix multiplication <br> B. 5×5 table <br> C. vigenere table <br> <b> D. matrix inversion </b> <br> (A)
+2.| User will be able to apply the concept of Hill Cipher and try to solve problem. | Type the task that <br> student will perform | 1 Hill cipher is an example of ___<br>A.mono-alphabetic cipher <br> B.substitution cipher <br> C.transposition cipher <br> <b> D.additive cipher </b> <br> (B) <br> 2 Encryption in hill cipher is done using ___<br> A.matrix multiplication <br> B.5×5 table <br> C.vigenere table <br> <b> D.matrix inversion </b> <br> (A)
 
 You can add more question. All questions may not be as MCQ
 Please add the correct answer as well.
