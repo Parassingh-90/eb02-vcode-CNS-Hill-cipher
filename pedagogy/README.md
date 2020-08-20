@@ -27,7 +27,7 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.| Understand | Explain
-2.| User will be able to: <br>apply the concept of Hill Cipher <br> and try to solve problem. | Apply | Apply
+2.| User will be able to: <br>apply the concept of Hill Cipher <br> and try to solve problem. | Apply | Solve
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -37,8 +37,8 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> As per Handout
-###### Assessment Method: As per handout
+###### Name of Instructional Strategy  :    <u> Expository
+###### Assessment Method: Summative
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
