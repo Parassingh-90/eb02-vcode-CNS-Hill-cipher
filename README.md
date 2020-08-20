@@ -13,7 +13,7 @@ Hill cipher is a polygraphic substitution cipher based on linear algebra.Each le
 
 <h5> Target Audience : </h5>
 
-B.TECH(CS/IT)
+B.TECH (CS/IT)
 
 <h5> Course Alignment : </h5>
 
