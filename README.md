@@ -33,14 +33,14 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 :--|:--|
 <b> Institute | <b> KIET Group of Institutions
 <b> Email id|     <b>  sangeeta.arora@kiet.edu
-<b> Department | Computer Application
+<b> Department | Computer Applications
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Harsh Dhussa | Student | IT | United College of Engineering and Research,Prayagraj | harshdhussa@gmail.com
+1 | Kshitiz Saxena | Student | IT | United College of Engineering and Research,Prayagraj | kshitizspn2000@gmail.com
 2 | Rishabh Shukla| Student | IT | United College of Engineering and Research,Prayagraj |rishabhshukla321@gmail.com
-3 | Kshitiz Saxena| Student | IT| United College of Engineering and Research,Prayagraj |kshitizspn2000@gmail.com
+3 | Harsh Dhussa| Student | IT| United College of Engineering and Research,Prayagraj | harshdhussa@gmail.com
 4 | Akash Goswami| Student | IT | United College of Engineering and Research,Prayagraj |ag28796@gmail.com
 
