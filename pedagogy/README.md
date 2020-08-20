@@ -7,7 +7,7 @@
 
 <b>Discipline | <b>Information Technology
 :--|:--|
-<b> Lab | <b> Cryptography and Network Security Lab
+<b> Lab | <b> Cryptography and Network Security Lab(RIT-751)
 <b> Experiment|     <b> 1. Write a Java Program to perform Encryption and Decryption using Hill Cipher
 
 
