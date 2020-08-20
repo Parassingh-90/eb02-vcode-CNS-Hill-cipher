@@ -70,10 +70,10 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 <a name="SI"></a>
 
-#### 4. Simulator Interactions:
+#### 5. Simulator Interactions:
 <br>
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Student will enter space key matrix and plaintext. |Cipher text for the given plaintext will be produced as output based on the key matrix. Logical explaination will also be given.| User will be able to have practical knowledge of hill cipher.
+1.| Student will enter key matrix and plaintext. |Cipher text for the given plaintext will be produced as output based on the key matrix. Logical explaination will also be given.| User will be able to have practical knowledge of hill cipher.
 
