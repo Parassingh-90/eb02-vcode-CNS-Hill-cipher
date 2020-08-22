@@ -57,7 +57,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.|User will be able to recall the concept of matrix| Identify the inverse matrix|<div align="justify">How inverse matrix is computed?</div>
-2.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
+2.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">1.Hill cipher requires prerequisite knowledge of?</div>A.integration <br> B.differentiation <br> C.matrix algebra <br> D. differential equation </b> <br> <b>(C)</b>
 3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|To Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of_<br></div> <div align="centre">A.mono-alphabetic cipher <br> </div> <div align="centre">B.substitution cipher <br></div> <div align="centre">C.transposition cipher <br></div> <div align="centre">D.additive cipher </b> <br> <b>(A)</b></div>
 
 <div align="right">
