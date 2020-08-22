@@ -38,7 +38,8 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
-<div align="justify">User input key and plaintext(message).Break the key into nxn matrix.Based on key matrix plaintext is divided into chunks.After that perform encryption using key matrix and message chunk matrix to generate ciphertext.To decrypt the ciphertext find inverse of key matrix and perform matrix multiplication with ciphertext.</div> 
+<div align="justify">
+Firstly user input key in term of 2x2 matrix after that user also need to provide plaintext(message).Based on key matrix plaintext is divided into chunks.After that encryption is perform using key matrix and message chunk matrix to generate ciphertext.To decrypt the ciphertext find inverse of key matrix and perform matrix multiplication with ciphertext.</div> 
 
 <br/>
 <div align="right">
@@ -55,9 +56,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|User will be able to recall the concept of matrix| identify the inverse matrix|<div align="justify">How inverse matrix is computed?</div>
+1.|User will be able to recall the concept of matrix| Identify the inverse matrix|<div align="justify">How inverse matrix is computed?</div>
 2.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
-3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|to Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of_<br></div> <div align="centre">A.mono-alphabetic cipher <br> </div> <div align="centre">B.substitution cipher <br></div> <div align="centre">C.transposition cipher <br></div> <div align="centre">D.additive cipher </b> <br> <b>(A)</b></div>
+3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|To Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of_<br></div> <div align="centre">A.mono-alphabetic cipher <br> </div> <div align="centre">B.substitution cipher <br></div> <div align="centre">C.transposition cipher <br></div> <div align="centre">D.additive cipher </b> <br> <b>(A)</b></div>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
