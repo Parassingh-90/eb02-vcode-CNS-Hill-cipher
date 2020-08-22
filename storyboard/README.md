@@ -1,16 +1,14 @@
 ## Storyboard (Round 2)
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
-
-Experiment 1: Name of the Experiment
+Experiment 1: Write a Java Program to perform Encryption and decryption using Hill Cipher.
 
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+The experiment is based on the concept of encryption using hill cipher, implemented through java.Student approaches the simulator in order to understand the implementation of hill cipher.Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.Student interacts with the simulator by providing key matrix and plaintext. Simulator will provide not only cipher text of corresponding plaintext  but also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text is being calculated.
 
 ### 2. Story:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+
 
 #### 2.1 Set the Visual Stage Description:
 Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
