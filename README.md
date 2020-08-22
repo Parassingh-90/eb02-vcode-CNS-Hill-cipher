@@ -5,7 +5,7 @@
 <b> Experiment|     <b> 2.Write a Java Program to perform Encryption using  Hill Cipher
 <h5> About the Lab (Objective) : </h5>
 
-The objective of this lab is that student must able to know encryption and decryption process to secure message using Hill Cipher 
+The objective of this lab is that student must able to know about encryption and decryption process to secure message using Hill Cipher 
 
 <h5> About the Experiment : </h5>
 
@@ -40,8 +40,8 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Kshitiz Saxena | Student | IT | United College of Engineering and Research,Prayagraj | kshitizspn2000@gmail.com
-2 | Rishabh Shukla| Student | IT | United College of Engineering and Research,Prayagraj |rishabhshukla321@gmail.com
-3 | Harsh Dhussa| Student | IT| United College of Engineering and Research,Prayagraj | harshdhussa@gmail.com
-4 | Akash Goswami| Student | IT | United College of Engineering and Research,Prayagraj |ag28796@gmail.com
+1 |Kshitiz Saxena|Student|IT|United College of Engineering and Research,Prayagraj|kshitizspn2000@gmail.com
+2 |Rishabh Shukla|Student|IT| United College of Engineering and Research,Prayagraj|rishabhshukla321@gmail.com
+3 |Harsh Dhussa|Student|IT|United College of Engineering and Research,Prayagraj|harshdhussa@gmail.com
+4 |Akash Goswami|Student|IT|United College of Engineering and Research,Prayagraj|ag28796@gmail.com
 
