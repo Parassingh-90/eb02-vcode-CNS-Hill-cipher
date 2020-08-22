@@ -21,8 +21,9 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.| Understand | Explain
-2.| User will be able to: <br>apply the concept of Hill Cipher <br> and try to solve problem. | Apply | Solve
+1.| User will be able to: <br>recall the concept of matrix.| Recall | Define
+2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.| Understand | Explain
+3.| User will be able to: <br>apply the concept of Hill Cipher <br> and try to solve problem. | Apply | Solve
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -55,7 +56,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|Hill cipher requires prerequisite knowledge of?
-2.| User will be able to apply the concept of Hill Cipher and try to solve problem. | to Perform Encryption & Decryption |1.Hill cipher is an example of ___<br>A.mono-alphabetic cipher <br> B.substitution cipher <br> C.transposition cipher <br> <b> D.additive cipher </b> <br> (B) <br> 2 Encryption in hill cipher is done using ___<br> A.matrix multiplication <br> B.5×5 table <br> C.vigenere table <br> <b> D.matrix inversion </b> <br> (A)
+2.| User will be able to apply the concept of Hill Cipher and try to solve problem. | to Perform Encryption & Decryption |1.Hill cipher is an example of ___<br>A.mono-alphabetic cipher <br> B.substitution cipher <br> C.transposition cipher <br> <b> D.additive cipher </b> <br> (B) <br> 2.Encryption in hill cipher is done using ___<br> A.matrix multiplication <br> B.5×5 table <br> C.vigenere table <br> <b> D.matrix inversion </b> <br> (A)
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
