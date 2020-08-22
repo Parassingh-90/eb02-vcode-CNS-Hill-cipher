@@ -2,7 +2,7 @@
 <b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Cryptography & Network Security(RIT-751)
-<b> Experiment|     <b> 2.Write a Java Program to perform Encryption and Decryption using  Hill Cipher
+<b> Experiment|     <b> 2.Write a Java Program to perform Encryption using  Hill Cipher
 <h5> About the Lab (Objective) : </h5>
 
 The objective of this lab is that student must able to know encryption and decryption process to secure message using Hill Cipher 
