@@ -57,7 +57,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 :--|:--|:--|:-:
 1.|User will be able to recall the concept of matrix| identify the inverse matrix|<div align="justify">How inverse matrix is computed?</div>
 2.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
-3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|to Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of _<br></div> <div align="centre">A.mono-alphabetic cipher </div><br><div align="centre">B.substitution cipher</div> <br><div align="centre">C.transposition cipher </div><br><div align="centre">D.additive cipher</div></b><br><b>(B)</b> </div> <div align="justify"> 2.Encryption in hill cipher is done using _<br></div> <div align="centre"> A.matrix multiplication<br>B.5×5 table<br>C.vigenere table<br><b>D.matrix inversion</b><br>(A)</div>
+3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|to Perform Encryption & Decryption.|
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
