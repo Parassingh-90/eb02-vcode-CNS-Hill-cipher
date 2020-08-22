@@ -3,8 +3,8 @@
 Experiment 1: Write a Java Program to perform Encryption and decryption using Hill Cipher.
 
 ### 1. Story Outline:
-
-The experiment is based on the concept of encryption and decryption using hill cipher, implemented through java.Student approaches the simulator in order to understand the implementation of hill cipher.Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.Student interacts with the simulator by providing key matrix and plaintext. Simulator will provide not only cipher text of corresponding plaintext and vice-versa but also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text and plain text is being calculated.
+<div align="justify">
+The experiment is based on the concept of encryption and decryption using hill cipher, implemented through java.Student approaches the simulator in order to understand the implementation of hill cipher.Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.Student interacts with the simulator by providing key matrix and plaintext. Simulator will provide not only cipher text of corresponding plaintext and vice-versa but also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text and plain text is being calculated.</div>
 
 ### 2. Story:
 
