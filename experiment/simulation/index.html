@@ -10,7 +10,7 @@
         <div >
             <h1 style="margin: 0; padding:5px;">HILL CIPHER</h1>
 			<marquee>
-				Write a Program in java to implement encryption using Hill cipher.
+				Write a Program in java to perform encryption and decryption using Hill cipher.
 			</marquee>
 		</div>
     </center>
@@ -26,6 +26,7 @@
 					<input type="text" id="field10" size="3">
 					<input type="text" id="field11" size="3">
 					<br>
+					<p class="t">* Enter 2x2 size invertible matrix.</p>
 					<br>
 					<input type="Submit" onclick="displaykey()" value="Submit" name="display" class="btn btn-info">
 				</div>
@@ -39,6 +40,15 @@
 					<br>
 					<input type="button" value="Next" id="next" onclick="next()" class="btn btn-info"><br><br>
 					<input type="button" value="Reset" id="reset" onclick="reset()" class="btn btn-info">
+				</div>
+				<div class="f" id="f3">
+					<br>
+					<input type="button" value="YES" id="yes" onclick="yes()" class="btn btn-info"><br><br>
+					<input type="button" value="NO" id="yes" onclick="no()" class="btn btn-info">
+				</div>
+				<div class="f" id="f4">
+					<br>
+					<input type="button" value="Reset" id="next" onclick="reset()" class="btn btn-info"><br><br>
 				</div>
 			</center>
         </div>
@@ -75,18 +85,18 @@
 				</p>
 			</div>
 			<div id="logic3">
-				<p>USE NEXT AND PREVIOUS BUTTONS TO GET LOGICAL EXPLAINATION</p>
+				<p>USE NEXT BUTTON TO GET LOGICAL EXPLAINATION</p>
 			</div>
 			<div id="logic4">
 				<p>
 					static void HillCipher(String message) <br>
 					{<br>
-						if(message.length()%2!=0)<br>
-						{<br>
-							message=message.concat("X");<br>
-						}<br>
-						encrypt(message);<br>
-						System.out.print(" Ciphertext:" + CipherText);<br>
+					&nbsp &nbsp 	if(message.length()%2!=0)<br>
+					&nbsp &nbsp 	{<br>
+					&nbsp &nbsp &nbsp &nbsp 		message=message.concat("X");<br>
+					&nbsp &nbsp 	}<br>
+					&nbsp &nbsp	encrypt(message);<br>
+					&nbsp &nbsp 	System.out.print(" Ciphertext:" + CipherText);<br>
 					} <br>
 				</p>
 			</div>
@@ -94,28 +104,38 @@
 				<p>
 					static void encrypt(String message) <br>
 					{ <br>
-						int x, i, j,pos=0;<br>
-						for(int k=0;k<(message.length())/2;k++)<br>
-						{	<br>
-							messageVector[0][0]=int(message[pos]);<br>
-							messageVector[1][0]=int(message[pos+1]);<br>
-							for (i = 0; i < 2; i++)  <br>
-							{ 
-								for (j = 0; j < 1;j++)<br>
-								{ 
-									cipherMatrix[i][j] = 0; <br>
+						&nbsp &nbsp int x, i, j,pos=0;<br>
+						&nbsp &nbsp for(int k=0;k<(message.length())/2;k++)<br>
+						&nbsp &nbsp {	<br>
+						&nbsp &nbsp &nbsp &nbsp 	messageVector[0][0]=int(message[pos]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	messageVector[1][0]=int(message[pos+1]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	for (i = 0; i < 2; i++)  <br>
+						&nbsp &nbsp &nbsp &nbsp 	{ 
+						&nbsp &nbsp &nbsp &nbsp 		for (j = 0; j < 1;j++)<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		{ 
+						&nbsp &nbsp &nbsp  cipherMatrix[i][j] = 0; <br>		  
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			{ <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 				cipherMatrix[i][j] += keyMatrix[i][x] * messageVector[x][j]; <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			} <br>
 								  
-									for (x = 0; x < 2; x++) <br>
-									{ <br>
-										cipherMatrix[i][j] += keyMatrix[i][x] * messageVector[x][j]; <br>
-									} <br>
-								  
-									cipherMatrix[i][j] = cipherMatrix[i][j] % 26;<br>
-									CipherText+=charAt(cipherMatrix[i][j]+65);<br>
-								} <br>
-							pos=pos+2;<br>
-						}<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			cipherMatrix[i][j] = cipherMatrix[i][j] % 26;<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			CipherText+=charAt(cipherMatrix[i][j]+65);<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
+						&nbsp &nbsp &nbsp &nbsp }<br>
 					} <br>
+				</p>
+			</div>
+			<div id="logic6">
+				<p>Do you want to decrypt the generated cipher text?</p>
+			</div>
+			<div id="logic7">
+				<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p>
+			</div>
+			<div id="logic8">
+				<p>
+				Code here
 				</p>
 			</div>
 		</div>
@@ -135,12 +155,18 @@
 						</tr>
 					</table>
 				</div>
+				<div id="displayopt">
+					<p>Please enter invertible matrix</p>
+				</div>
 				<div id="display1">
 					<p>Plaintext entered by user:<span id="pl"></span></p>
 				</div>
 				<div id="display2">
 					<p>Cipher text:<span id="ci"></span></p>
-				</div>	
+				</div>
+				<div id="display3">
+					<p>Plaintext corresponding to generated cipher text:<span id="cl"></span></p>
+				</div>
 			<center>
 		</div>
     </div>
