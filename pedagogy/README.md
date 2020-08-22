@@ -1,9 +1,9 @@
 ## Pedagogy (Round 1)
 <b>Experiment: Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a> <br>
-<b>Discipline | <b>Information Technology
+<b>Discipline |<b>Information Technology
 :--|:--|
-<b> Lab | <b> Cryptography and Network Security Lab
-<b> Experiment|     <b> 2. Write a Java Program to perform Encryption and Decryption using Hill Cipher
+<b> Lab |<b>Cryptography and Network Security Lab
+<b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher
 
 
 <h4> [1. Focus Area](#LO)
@@ -21,9 +21,9 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the concept of matrix.| Recall | Define
-2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.| Understand | Explain
-3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption. | Apply | Solve
+1.| User will be able to: <br>recall the concept of matrix.|Recall |Define
+2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
+3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Solve
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -55,8 +55,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
-2.|User will be able to apply the concept of Hill Cipher and try to solve problem.|to Perform Encryption & Decryption |<div align="justify">1.Hill cipher is an example of ___<br></div> <div align="center">A.mono-alphabetic cipher <br> B.substitution cipher <br> C.transposition cipher <br> <b> D.additive cipher </b></div><b>(B)</b> <br> 2.Encryption in hill cipher is done using ___<br><div align="center"> A.matrix multiplication <br> B.5×5 table <br> C.vigenere table <br> <b> D.matrix inversion </b> <br> </div>(A)
+1.|User will be able to recall the concept of matrix| |<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
+2.|User will be able to understand the concept of encryption and decryption using Hill Cipher| Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of?</div>
+3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|to Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of ___<br></div> <div align="center">A.mono-alphabetic cipher <br><div align="center"> B.substitution cipher <br> <div align="center">C.transposition cipher <br> <div align="center"> D.additive cipher </b></div><b>(B)</b> <br> 2.Encryption in hill cipher is done using ___<br><div align="center"> A.matrix multiplication <br> B.5×5 table <br> C.vigenere table <br> <b> D.matrix inversion </b> <br> </div>(A)
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
