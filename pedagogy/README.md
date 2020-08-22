@@ -14,7 +14,7 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Experimentation
+#### 1. Focus Area : Reinforce theoretical concepts
 
 #### 2. Learning Objectives and Cognitive Level
 
