@@ -13,7 +13,8 @@ The objective of this lab is that student must able to know encryption and decry
 
 <h5> Target Audience : </h5>
 
-B.TECH (CS/IT)
+B.TECH (CS/IT) <br>
+Student/Faculty
 
 <h5> Course Alignment : </h5>
 
