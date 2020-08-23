@@ -14,6 +14,9 @@ document.getElementById("display").style.display="none";
 	document.getElementById("logic7").style.display="none";
 	document.getElementById("logic8").style.display="none";
 	document.getElementById("display3").style.display="none";
+	document.getElementById("display4").style.display="none";
+	document.getElementById("pst").style.display="none";
+	
 	var log=2;
 	function displaykey()
 	{
@@ -30,8 +33,10 @@ document.getElementById("display").style.display="none";
 		if(res==0)
 		{
 			document.getElementById("displayopt").style.display="block";
+			document.getElementById("pst").style.display="block";
 			document.getElementById("f4").style.display="block";
 			document.getElementById("f").style.display="none";
+			document.getElementById("logic1").style.display="none";
 		}
 		else
 		{
@@ -123,6 +128,7 @@ document.getElementById("display").style.display="none";
 		document.getElementById("logic7").style.display="block";
 		document.getElementById("f3").style.display="none";
 		document.getElementById("f4").style.display="block";
+		document.getElementById("display4").style.display="block";
 	}
 	function reset()
 	{	
@@ -154,4 +160,7 @@ document.getElementById("display").style.display="none";
 		document.getElementById("logic8").style.display="none";
 		document.getElementById("display3").style.display="none";
 		document.getElementById("cl").innerHTML="";
+		document.getElementById("display4").style.display="none";
+		document.getElementById("pst").style.display="none";
+	
 	}
