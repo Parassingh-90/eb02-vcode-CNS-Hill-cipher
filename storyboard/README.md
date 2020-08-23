@@ -18,19 +18,27 @@ Thus, if we work modulo 26 as above, the determinant must be nonzero, and must n
 
 
 #### 2.1 Set the Visual Stage Description:
-We divide our whole simulator page into three pane.First pane will be used by the user to give input on the basis of which program executes.
-In the second pane user observes the code snippet which provide the logical expalination of the code. This pane also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text corresponding to plaintext is being calculated and how decryption of cipher is formed using hill cipher.
-When the logical explanation will be completed the cipher text corresponding to plaintext and plaintext corresponding to cipher text will be displayed in the last pane i.e third pane.
+We divide our whole simulator page into three pane.First pane will be used by the user to give input on the basis of which program executes.<br>
+In the second pane user observes the code snippet which provide the logical expalination of the code. This pane also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text corresponding to plaintext is being calculated and how decryption of cipher is formed using hill cipher.<br>
+When the logical explanation will be completed the cipher text corresponding to plaintext and plaintext corresponding to cipher text will be displayed in the last pane i.e third pane.<br>
 
 #### 2.2 Set User Objectives & Goals:
-1)The prime objective of the experiment is to demonstrate hill cipher in java and how it allows us to perform encryption and decryption.
-2)The simulator allows the user to input the desired key matrix and plaintext and based on the input it performs encryption and decryption.
-3)To explain how encryption and decryption works and how key matrix,plain text and cipher text are used to perform encryption and decryption.
-4)To observe the output shown by the simulator when the provide inputs.
-5)To answer the assessment questions based on the observations.
+1)The prime objective of the experiment is to demonstrate hill cipher in java and how it allows us to perform encryption and decryption.<br>
+2)The simulator allows the user to input the desired key matrix and plaintext and based on the input it performs encryption and decryption.<br>
+3)To explain how encryption and decryption works and how key matrix,plain text and cipher text are used to perform encryption and decryption.<br>
+4)To observe the output shown by the simulator when the provide inputs.<br>
+5)To answer the assessment questions based on the observations.<br>
 
 #### 2.3 Set the Pathway Activities:
-
+1)	User has to provide the key matrix in the text box provided in the first pane of the simulator.<br>
+2)	Click on the “Submit” button. It takes you to second form in which you have to enter plaintext. <br>
+3)	 Click on “ Submit“ button.Then two "Next" and "Reset"buttons appears in the first pane.<br>
+4)	Click on “next “button. It provides the logical explanation of the output i.e. how the cipher text coressponding to entered plain text is being calculated.<br>
+5)	Click on “Next” button. The area of the corresponding shape is displayed as output in the third pane, with the end of logical explanation of encryption.  <br>
+6)	Click on “Next” button.Two "Yes" and "No" buttons appears in the first pane from where user has to chosse whether he want to go for decrption or not.<br>
+7) If user click on "Yes".It provides the plain text corresponding to generated cipher text with the end of loical explaination of decryption and user can use “Reset” button to demonstrate hill cipher for another inputs .<br>
+8)If user click on "No"."Reset" button will appear in the the first pane whichcan be used by the user to demonstrate hill cipher for another inputs .<br>
+9)	User can use “Reset” button to demonstrate hill cipher for another inputs .<br>
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 Q. Hill cipher requires prerequisite knowledge of?<br>
@@ -64,17 +72,17 @@ c) square matrix<br>
 d) rectangular matrix<br>
 
 ##### 2.5 Allow pitfalls:
-1)The simulator will be able to clear the misconception about the working of hill cipher.
-2)Student may expect different outputs on the different data-type inputs (for eg 5 & 5.0). The students will not get the required outcome.
-3)The students will get an opportunity for trying different things with the simulator with an empty parameter input box
+1)The simulator will be able to clear the misconception about the working of hill cipher.<br>
+2)Student may expect different outputs on the different data-type inputs (for eg 5 & 5.0). The students will not get the required outcome.<br>
+3)The students will get an opportunity for trying different things with the simulator with an empty parameter input box.<br>
 
 ##### 2.6 Conclusion:
-1)Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.
-2)This would prompt the users as to how many answers were correctly answered.
-3)Marks maybe assigned to each question which would enable the student to calculate his performance.
+1)Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.<br>
+2)This would prompt the users as to how many answers were correctly answered.<br>
+3)Marks maybe assigned to each question which would enable the student to calculate his performance.<br>
 
 ##### 2.7 Equations/formulas: NA
-1)C=KxP mod 26
+1)C=KxP mod 26<br>
 2)P=K<sup>-1</sup> x C mod 26
 
 
