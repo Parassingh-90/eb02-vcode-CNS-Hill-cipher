@@ -1,6 +1,6 @@
 ## Storyboard (Round 2)
 
-Experiment 1: Write a Java Program to perform Encryption and decryption using Hill Cipher.
+Experiment 2: Write a Java Program to perform Encryption and decryption using Hill Cipher.
 
 ### 1. Story Outline:
 <div align="justify">
