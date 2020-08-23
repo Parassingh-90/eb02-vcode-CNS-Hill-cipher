@@ -90,27 +90,54 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Hill cipher requires prerequisite knowledge of?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "integration",                  ///// Write the option 1 inside double quotes
+        b: "differentiation",                  ///// Write the option 2 inside double quotes
+        c: "matrix algebra",                  ///// Write the option 3 inside double quotes
+        d: "differential equation"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Encryption in hill cipher is done using ______________",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "matrix multiplication",                  ///// Write the option 1 inside double quotes
+        b: "a 5×5 table",                  ///// Write the option 2 inside double quotes
+        c: "vigenere table",                  ///// Write the option 3 inside double quotes
+        d: "matrix inversion"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+    question: "What is poly graphic substitution cipher?",  ///// Write the question inside double quotes
+      answers: {
+        a: "a substitution based cipher which uses multiple substitutions at different positions",                  ///// Write the option 1 inside double quotes
+        b: "a substitution based cipher which uses fixed substitution over entire plain text",                  ///// Write the option 2 inside double quotes
+        c: "a substitution based cipher in which substitution is performed over a block of letters",                  ///// Write the option 3 inside double quotes
+        d: "a transposition based cipher which uses fixed substitution over entire plain text."                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },                
+    question: "A key matrix used for encryption in hill cipher must be?",  ///// Write the question inside double quotes
+      answers: {
+        a: "invertible matrix",                  ///// Write the option 1 inside double quotes
+        b: "non invertible matrix",                  ///// Write the option 2 inside double quotes
+        c: "square matrix",                  ///// Write the option 3 inside double quotes
+        d: "rectangular matrix"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },                
+    question: "Hill cipher is an example of ____________",  ///// Write the question inside double quotes
+      answers: {
+        a: "mono-alphabetic cipher",                  ///// Write the option 1 inside double quotes
+        b: "substitution cipher",                  ///// Write the option 2 inside double quotes
+        c: "transposition cipher",                  ///// Write the option 3 inside double quotes
+        d: "additive cipher"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },                
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
