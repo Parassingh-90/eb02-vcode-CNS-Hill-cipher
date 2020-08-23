@@ -7,27 +7,30 @@ Experiment 1: Write a Java Program to perform Encryption and decryption using Hi
 The experiment is based on the concept of encryption and decryption using hill cipher, implemented through java.Student approaches the simulator in order to understand the implementation of hill cipher.Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.Student interacts with the simulator by providing key matrix and plaintext. Simulator will provide not only cipher text of corresponding plaintext and vice-versa but also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text and plain text is being calculated.</div>
 
 ### 2. Story:
-Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.
+<div align="justify">
+Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.</div>
 
 Two complications exist in picking the encrypting matrix:
 1)Not all matrices have an inverse (see invertible matrix). The matrix will have an inverse if and only if its determinant is not zero.
 2)The determinant of the encrypting matrix must not have any common factors with the modular base.
-
-Thus, if we work modulo 26 as above, the determinant must be nonzero, and must not be divisible by 2 or 13. If the determinant is 0, or has common factors with the modular base, then the matrix cannot be used in the Hill cipher, and another matrix must be chosen (otherwise it will not be possible to decrypt). Fortunately, matrices which satisfy the conditions to be used in the Hill cipher are fairly common.
+<div align="justify"
+Thus, if we work modulo 26 as above, the determinant must be nonzero, and must not be divisible by 2 or 13. If the determinant is 0, or has common factors with the modular base, then the matrix cannot be used in the Hill cipher, and another matrix must be chosen (otherwise it will not be possible to decrypt). Fortunately, matrices which satisfy the conditions to be used in the Hill cipher are fairly common.</div>
 
 
 
 #### 2.1 Set the Visual Stage Description:
+<div align="justfy">
 We divide our whole simulator page into three pane.First pane will be used by the user to give input on the basis of which program executes.<br>
 In the second pane user observes the code snippet which provide the logical expalination of the code. This pane also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text corresponding to plaintext is being calculated and how decryption of cipher is formed using hill cipher.<br>
-When the logical explanation will be completed the cipher text corresponding to plaintext and plaintext corresponding to cipher text will be displayed in the last pane i.e third pane.<br>
+When the logical explanation will be completed the cipher text corresponding to plaintext and plaintext corresponding to cipher text will be displayed in the last pane i.e third pane.<br></div>
 
 #### 2.2 Set User Objectives & Goals:
+<div align="justify">
 1)The prime objective of the experiment is to demonstrate hill cipher in java and how it allows us to perform encryption and decryption.<br>
 2)The simulator allows the user to input the desired key matrix and plaintext and based on the input it performs encryption and decryption.<br>
 3)To explain how encryption and decryption works and how key matrix,plain text and cipher text are used to perform encryption and decryption.<br>
 4)To observe the output shown by the simulator when the provide inputs.<br>
-5)To answer the assessment questions based on the observations.<br>
+5)To answer the assessment questions based on the observations.<br></div>
 
 #### 2.3 Set the Pathway Activities:
 1)User has to provide the key matrix in the text box provided in the first pane of the simulator.<br>
