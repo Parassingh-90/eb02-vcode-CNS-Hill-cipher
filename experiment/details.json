@@ -2,44 +2,44 @@
 
    "details": [
        {
-			"Experiment": "",     
-			"Lab": "",               
-			"Discipline": "",				 
-			"Technology": ""         
+			"Experiment": "Write a Java Program to perform Encryption and Decryption using Hill Cipher",     
+			"Lab": "Cryptography & Network Security",               
+			"Discipline": "Information Technology",				 
+			"Technology": "B.Tech"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "",         
-      "Institute": "",         
-      "InstituteAcronym": ""   
+      "Developer": "Paras Nath Singh",         
+      "Institute": "United College of Engineering & Research,Prayagraj",         
+      "InstituteAcronym": "UCER"   
        }
    ],
 
    "contributer": [
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Kshitiz Saxena",             
+      "Institute": "United College of Engineering & Research,Prayagraj",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
 			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+      "Institute": "United College of Engineering & Research,Prayagraj",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
 			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+      "Institute": "United College of Engineering & Research,Prayagraj",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
 			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+      "Institute": "United College of Engineering & Research,Prayagraj",               
+			"InstituteAcronym": "UCER"         
        }
    ]
 
