@@ -56,10 +56,10 @@
 			<center>
                 <h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;font-weight:bold;">Step by Step logic</h2>
             </center>
-			<div id="logic1">
-				<p>
+			<div id="logic1" class="back">
+				<p class="p">
 					static void getKeyMatrix(int keyMatrix[][]) <br>
-					{ <br>
+					{ <br><p class="colr">
 						&nbsp &nbsp int j;<br>
 						&nbsp &nbsp Scanner input = new Scanner(System.in);<br>
 						&nbsp &nbsp for (int i = 0; i < 2; i++) <br> 
@@ -69,41 +69,69 @@
 								 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp j= input.nextInt();<br>
 								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp keyMatrix[i][j] = j <br>
 							&nbsp &nbsp &nbsp &nbsp} <br>
-						&nbsp &nbsp } <br>
-					} <br>
+						&nbsp &nbsp }</p>
+					&nbsp &nbsp  }
 				</p>
 			</div>
-			<div id="logic2">
-				<p>
+			<div id="logic2" class="back">
+				<p class="p">
 					public static void main(String[] args) <br>
 					{<br>
 						&nbsp &nbsp getKeyMatrix();<br>
-						&nbsp &nbsp Scanner sc= new Scanner(System.in);<br>
-						&nbsp &nbsp String plaintext=sc.nextLine();<br>
-						&nbsp &nbsp HillCipher(plaintext); <br>
-					} <br>
+						&nbsp &nbsp if(keyMatrix[0][0]*keyMatrix[1][1]-keyMatrix[0][1]*keyMatrix[1][0])<br>
+						&nbsp &nbsp{<br>
+						&nbsp &nbsp &nbsp &nbsp System.out.print("Please enter invertible matrix");<br>
+						&nbsp &nbsp}<br>
+						&nbsp &nbsp else<br>
+						&nbsp &nbsp {
+						
+						
+						</p>
+						<p class="colr">
+						&nbsp &nbsp &nbsp &nbsp Scanner sc= new Scanner(System.in);<br>
+						&nbsp &nbsp &nbsp &nbsp String plaintext=sc.nextLine();</p>
+						<p class="p">
+						&nbsp &nbsp &nbsp &nbsp &nbsp HillCipher(plaintext); <br>
+						&nbsp &nbsp &nbsp &nbsp }<br>
+					} </p>
 				</p>
 			</div>
-			<div id="logic3">
-				<p>USE NEXT BUTTON TO GET LOGICAL EXPLAINATION</p>
+			<div id="logic3" class="back">
+				<p class="p">USE NEXT BUTTON TO GET LOGICAL EXPLAINATION</p>
 			</div>
-			<div id="logic4">
-				<p>
+			<div id="logic4" class="back">
+				<p class="p">
 					static void HillCipher(String message) <br>
-					{<br>
-					&nbsp &nbsp 	if(message.length()%2!=0)<br>
-					&nbsp &nbsp 	{<br>
+					{</p>
+					<p class="colr">
+					&nbsp &nbsp 	if(message.length()%2!=0){<br>
+					
 					&nbsp &nbsp &nbsp &nbsp 		message=message.concat("X");<br>
 					&nbsp &nbsp 	}<br>
 					&nbsp &nbsp	encrypt(message);<br>
 					&nbsp &nbsp 	System.out.print(" Ciphertext:" + CipherText);<br>
-					} <br>
+					</p>
+					<p class="p">
+					&nbsp &nbsp System.out.print("Do you want to go for decryption?");<br>
+					&nbsp &nbsp ScannerScanner sc= new Scanner(System.in);<br>
+					&nbsp &nbsp String decide=sc.nextLine();<br>
+					&nbsp &nbsp if(decide=="Y"){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp decrypt(CipherText);<br>
+					&nbsp &nbsp }<br>
+					&nbsp &nbsp else<br>
+					&nbsp &nbsp {<br>
+					&nbsp &nbsp &nbsp &nbsp System.out.print("Thankyou! ..Hope you understand implementation of encryption using hill cipher.");<br>
+					&nbsp &nbsp }<br>
+					
+					} <br></p>
 				</p>
 			</div>
-			<div id="logic5">
-				<p>
+			<div id="logic5" class="back">
+				<p class=p>
 					static void encrypt(String message) <br>
-					{ <br>
+					{ </p>
+						<p class="colr">
 						&nbsp &nbsp int x, i, j,pos=0;<br>
 						&nbsp &nbsp for(int k=0;k<(message.length())/2;k++)<br>
 						&nbsp &nbsp {	<br>
@@ -123,21 +151,73 @@
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			CipherText+=charAt(cipherMatrix[i][j]+65);<br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
-						&nbsp &nbsp &nbsp &nbsp }<br>
+						&nbsp &nbsp &nbsp &nbsp }<br></p>
+						<p class="p">
 					} <br>
 				</p>
 			</div>
-			<div id="logic6">
-				<p>Do you want to decrypt the generated cipher text?</p>
+			<div id="logic6"class="back">
+				<p class="p">Do you want to decrypt the generated cipher text?</p>
 			</div>
-			<div id="logic7">
-				<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p>
+			<div id="logic7"class="back">
+			<p class="p">
+				static void HillCipher(String message) <br>
+					{
+				
+					&nbsp &nbsp 	if(message.length()%2!=0){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp 		message=message.concat("X");<br>
+					&nbsp &nbsp 	}<br>
+					&nbsp &nbsp	encrypt(message);<br>
+					&nbsp &nbsp 	System.out.print(" Ciphertext:" + CipherText);<br>
+				
+					
+					&nbsp &nbsp System.out.print("Do you want to go for decryption?");<br>
+					&nbsp &nbsp ScannerScanner sc= new Scanner(System.in);<br>
+					&nbsp &nbsp String decide=sc.nextLine();<br>
+					&nbsp &nbsp if(decide=="Y"){<br>
+					
+					&nbsp &nbsp &nbsp &nbsp decrypt(CipherText);<br>
+					&nbsp &nbsp }</p>
+					<p class="colr">
+					&nbsp &nbsp else<br>
+					&nbsp &nbsp {<br>
+					&nbsp &nbsp &nbsp &nbsp System.out.print("Thankyou! ..Hope you understand implementation of encryption using hill cipher.");<br>
+					&nbsp &nbsp }</p>
+					<p class="p">
+					
+					} <br></p>
 			</div>
-			<div id="logic8">
+			<div id="logic8"class="back">
 				<p>
 				Code here
 				</p>
 			</div>
+			<div id="pst" class="back">
+				<p class="p">
+					public static void main(String[] args) <br>
+					{<br>
+						&nbsp &nbsp getKeyMatrix();</p>
+						<p class="colr">
+						&nbsp &nbsp if(keyMatrix[0][0]*keyMatrix[1][1]-keyMatrix[0][1]*keyMatrix[1][0])<br>
+						&nbsp &nbsp{<br>
+						&nbsp &nbsp &nbsp &nbsp System.out.print("Please enter invertible matrix");<br>
+						&nbsp &nbsp}</p>
+						<p class="p">
+						&nbsp &nbsp else<br>
+						&nbsp &nbsp {
+						
+						
+					
+					
+						&nbsp &nbsp &nbsp &nbsp Scanner sc= new Scanner(System.in);<br>
+						&nbsp &nbsp &nbsp &nbsp String plaintext=sc.nextLine();<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp HillCipher(plaintext); <br>
+						&nbsp &nbsp &nbsp &nbsp }<br>
+					} 
+				</p>
+			</div>
+			
 		</div>
         <div class="col3" id="output">
 			<center>
@@ -166,6 +246,9 @@
 				</div>
 				<div id="display3">
 					<p>Plaintext corresponding to generated cipher text:<span id="cl"></span></p>
+				</div>
+				<div id="display4">
+					<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p> 
 				</div>
 			<center>
 		</div>
