@@ -10,10 +10,10 @@ The experiment is based on the concept of encryption and decryption using hill c
 <div align="justify">
 Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.</div>
 
-Two complications exist in picking the encrypting matrix:
-1)Not all matrices have an inverse (see invertible matrix). The matrix will have an inverse if and only if its determinant is not zero.
+Two complications exist in picking the encrypting matrix:<br>
+1)Not all matrices have an inverse (see invertible matrix). The matrix will have an inverse if and only if its determinant is not zero.<br>
 2)The determinant of the encrypting matrix must not have any common factors with the modular base.
-<div align="justify"
+<div align="justify">
 Thus, if we work modulo 26 as above, the determinant must be nonzero, and must not be divisible by 2 or 13. If the determinant is 0, or has common factors with the modular base, then the matrix cannot be used in the Hill cipher, and another matrix must be chosen (otherwise it will not be possible to decrypt). Fortunately, matrices which satisfy the conditions to be used in the Hill cipher are fairly common.</div>
 
 
