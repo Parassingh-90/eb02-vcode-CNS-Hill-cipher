@@ -90,7 +90,7 @@ d) rectangular matrix<br>
 
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br><br>
+<img src="flowchart/Slide1.png"/><br><br>
 
 
 ### 4. Mindmap:
