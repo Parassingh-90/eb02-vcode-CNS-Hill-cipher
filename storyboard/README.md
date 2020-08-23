@@ -94,7 +94,7 @@ d) rectangular matrix<br>
 
 
 ### 4. Mindmap:
-<img src="mindmap/mindmap.png"/><br>
+<img src="mindmap/mindmap.jpeg"><br>
 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
