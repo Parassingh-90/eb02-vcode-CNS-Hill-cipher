@@ -7,47 +7,84 @@ Experiment 1: Write a Java Program to perform Encryption and decryption using Hi
 The experiment is based on the concept of encryption and decryption using hill cipher, implemented through java.Student approaches the simulator in order to understand the implementation of hill cipher.Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.Student interacts with the simulator by providing key matrix and plaintext. Simulator will provide not only cipher text of corresponding plaintext and vice-versa but also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text and plain text is being calculated.</div>
 
 ### 2. Story:
+Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.
+
+Two complications exist in picking the encrypting matrix:
+1)Not all matrices have an inverse (see invertible matrix). The matrix will have an inverse if and only if its determinant is not zero.
+2)The determinant of the encrypting matrix must not have any common factors with the modular base.
+
+Thus, if we work modulo 26 as above, the determinant must be nonzero, and must not be divisible by 2 or 13. If the determinant is 0, or has common factors with the modular base, then the matrix cannot be used in the Hill cipher, and another matrix must be chosen (otherwise it will not be possible to decrypt). Fortunately, matrices which satisfy the conditions to be used in the Hill cipher are fairly common.
 
 
 
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+We divide our whole simulator page into three pane.First pane will be used by the user to give input on the basis of which program executes.
+In the second pane user observes the code snippet which provide the logical expalination of the code. This pane also helps the student to understand the implementation of hill cipher by providing the logical explanation of the output i.e. how the cipher text corresponding to plaintext is being calculated and how decryption of cipher is formed using hill cipher.
+When the logical explanation will be completed the cipher text corresponding to plaintext and plaintext corresponding to cipher text will be displayed in the last pane i.e third pane.
 
 #### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+1)The prime objective of the experiment is to demonstrate hill cipher in java and how it allows us to perform encryption and decryption.
+2)The simulator allows the user to input the desired key matrix and plaintext and based on the input it performs encryption and decryption.
+3)To explain how encryption and decryption works and how key matrix,plain text and cipher text are used to perform encryption and decryption.
+4)To observe the output shown by the simulator when the provide inputs.
+5)To answer the assessment questions based on the observations.
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+Q. Hill cipher requires prerequisite knowledge of?<br>
+a) integration<br>
+b) differentiation<br>
+<b>c) matrix algebra</b><br>
+d) differential equation<br><br>
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+Q. Hill cipher is an example of ____________<br>
+a) mono-alphabetic cipher<br>
+<b>b) substitution cipher</b><br>
+c) transposition cipher<br>
+d) additive cipher<br><br>
+
+Q. Encryption in hill cipher is done using ______________<br>
+<b>a) matrix multiplication</b><br>
+b) a 5×5 table<br>
+c) vigenere table<br>
+d) matrix inversion<br><br>
+
+Q. What is poly graphic substitution cipher?<br>
+a) a substitution based cipher which uses multiple substitutions at different positions<br>
+b) a substitution based cipher which uses fixed substitution over entire plain text<br>
+<b>c) a substitution based cipher in which substitution is performed over a block of letters</b><br>
+d) a transposition based cipher which uses fixed substitution over entire plain text.<br><br>
+
+Q. A key matrix used for encryption in hill cipher must be?<br>
+<b>a) invertible matrix</b><br>
+b) non invertible matrix<br>
+c) square matrix<br>
+d) rectangular matrix<br>
 
 ##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+1)The simulator will be able to clear the misconception about the working of hill cipher.
+2)Student may expect different outputs on the different data-type inputs (for eg 5 & 5.0). The students will not get the required outcome.
+3)The students will get an opportunity for trying different things with the simulator with an empty parameter input box
 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+1)Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.
+2)This would prompt the users as to how many answers were correctly answered.
+3)Marks maybe assigned to each question which would enable the student to calculate his performance.
 
 ##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
+1)C=KxP mod 26
+2)P=K<sup>-1</sup> x C mod 26
 
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
-<br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
+<img src="flowchart/flowchart.png"/><br><br>
+
 
 ### 4. Mindmap:
-<img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
+<img src="mindmap/mindmap.png"/><br>
 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
+
