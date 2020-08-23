@@ -190,8 +190,33 @@
 					} <br></p>
 			</div>
 			<div id="logic8"class="back">
-				<p>
-				Code here
+				<p class=p>
+					static void decrypt() <br>
+					{ </p>
+						<p class="colr">
+						&nbsp &nbsp inverse();
+						&nbsp &nbsp int x, i, j,pos=0;<br>
+						&nbsp &nbsp for(int k=0;k<(CipherText.length())/2;k++)<br>
+						&nbsp &nbsp {	<br>
+						&nbsp &nbsp &nbsp &nbsp 	cipherVector[0][0]=int(CipherText[pos]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	cipherVector[1][0]=int(CipherText[pos+1]);<br>
+						&nbsp &nbsp &nbsp &nbsp 	for (i = 0; i < 2; i++){  <br>
+						 
+						&nbsp &nbsp &nbsp &nbsp 		for (j = 0; j < 1;j++){<br>
+						
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp PlainMatrix[i][j]=0;
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			{ <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 				PlainMatrix[i][j] += decryptMatrix[i][x] * cipherVector[x][j]; <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			} <br>
+								  
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			PlainMatrix[i][j] =PlainMatrix[i][j] % 26;<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			Plainreturn=charAt(PlainMatrixMatrix[i][j]+65);<br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
+						&nbsp &nbsp &nbsp &nbsp }<br></p>
+						<p class="p">
+					} <br>
 				</p>
 			</div>
 			<div id="pst" class="back">
