@@ -97,5 +97,5 @@ d) rectangular matrix<br>
 <img src="mindmap/mindmap.jpeg"><br>
 
 ### 5. Storyboard :
-<img scr="storyboard/storyboard.gif">
+<img src="storyboard/storyboard.gif">
 
