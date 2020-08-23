@@ -1,32 +1,31 @@
 ## Post test
 <br>
-Q 1. What will happen, if the glass plate is replaced with plane mirror?<br>
-<b>a. There will be no interference fringe<br></b>
-b. There will be interference fringe<br>
-c. colored fringes will be observed<br>
-d. None of the options<br><br>
+Q 1. Hill cipher requires prerequisite knowledge of?<br>
+a. Integration<br>
+b. Differentiation<br>
+<b>c. Matrix algebra<br></b>
+d. Differential equation<br><br>
 
-Q 2. What will happen, if sodium light is replaced with white light?<br>
-a. There will be no interference fringe<br>
-b. There will be interference fringe<br>
-<b>c. colored fringes will be observed<br></b>
-d. No change in pattern is visible<br>
+Q 2. Hill cipher is an example of ____________<br>
+a. mono-alphabetic cipher<br>
+b. substitution cipher<br>
+<b>c. transposition cipher<br></b>
+d. additive cipher<br>
 
-Q 3. What will appear, if in place of lens, a plane glass making some angle with the glass stripe  is used?<br>
-<b>a. Alternate dark and bright fringes in shape of a straight line.<br></b>
-b. triangular interference pattern<br>
-c. colored fringes will be observed<br>
-d. No change in pattern is visible<br>
+Q 3. Encryption in hill cipher is done using _________<br>
+<b>a. matrix multiplication.<br></b>
+b. a 5×5 table<br>
+c. vigenere table<br>
+d. matrix inversion<br>
 
-Q 4. Colours observed in thin film are because of ________________<br>
-a. Diffraction<br>
-<b>b. Interference<br></b>
-c. Polarization<br>
-d. None of the options<br>
+Q 4. What is poly graphic substitution cipher?<br>
+a. a substitution based cipher which uses multiple substitutions at different positions<br>
+b. a substitution based cipher which uses fixed substitution over entire plain text<br>
+<b>c. a substitution based cipher in which substitution is performed over a block of letters<br></b>
+d. a transposition based cipher which uses fixed substitution over entire plain text.<br>
 
-Q 5.  In Newton’s rings experiment, rings are formed when the light is ________________ by
-lower surface of the lens and upper surface of the glass plate, interfere.<br>
-a. Reflected<br>
-<b>b. Refracted<br></b>
-c. Transmitted<br>
-d. None<br></b>
+Q 5. A key matrix used for encryption in hill cipher must be?.<br>
+<b>a. invertible matrix<br></b>
+b. non invertible matrix<br>
+c. square matrix<br>
+d. rectangular matrix<br>
