@@ -61,7 +61,7 @@ document.getElementById("display").style.display="none";
 	}
 	function next()
 	{
-		var myalpha=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+		var myalpha=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"," "];
 		var str=document.getElementById('f11').value;
 		var one=parseInt(document.getElementById('field00').value);
 		var two=parseInt(document.getElementById('field01').value);
