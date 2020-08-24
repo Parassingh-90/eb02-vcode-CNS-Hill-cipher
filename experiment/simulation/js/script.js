@@ -50,7 +50,6 @@ document.getElementById("display").style.display="none";
 	function displaykey1()
 	{	
 		var str=document.getElementById('f11').value;
-		str=str.toUpperCase();
 		document.getElementById('pl').innerHTML=str;
 		document.getElementById("display1").style.display="block";
 		document.getElementById("f1").style.display="none";
