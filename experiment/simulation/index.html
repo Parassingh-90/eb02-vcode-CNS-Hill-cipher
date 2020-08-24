@@ -58,7 +58,7 @@
             </center>
 			<div id="logic1" class="back">
 				<p class="p">
-					static void getKeyMatrix() <br>
+					static void getKeyMatrix(int keyMatrix[][]) <br>
 					{ <br><p class="colr">
 						&nbsp &nbsp int j;<br>
 						&nbsp &nbsp Scanner input = new Scanner(System.in);<br>
@@ -129,13 +129,12 @@
 				</p>
 			</div>
 			<div id="logic5" class="back">
-				<p class=p>
+				<p class="p">
 					static void encrypt(String message) <br>
 					{ </p>
 						<p class="colr">
 						&nbsp &nbsp int x, i, j,pos=0;<br>
-						&nbsp &nbsp for(int k=0;k<(message.length())/2;k++)<br>
-						&nbsp &nbsp {	<br>
+						&nbsp &nbsp for(int k=0;k<(message.length())/2;k++){<br>
 						&nbsp &nbsp &nbsp &nbsp 	messageVector[0][0]=int(message[pos]);<br>
 						&nbsp &nbsp &nbsp &nbsp 	messageVector[1][0]=int(message[pos+1]);<br>
 						&nbsp &nbsp &nbsp &nbsp 	for (i = 0; i < 2; i++){  <br>
@@ -143,8 +142,7 @@
 						&nbsp &nbsp &nbsp &nbsp 		for (j = 0; j < 1;j++){<br>
 						
 						&nbsp &nbsp &nbsp  cipherMatrix[i][j] = 0; <br>		  
-						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) <br>
-						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			{ <br>
+						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			for (x = 0; x < 2; x++) {<br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 				cipherMatrix[i][j] += keyMatrix[i][x] * messageVector[x][j]; <br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			} <br>
 								  
@@ -152,9 +150,9 @@
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 			CipherText+=charAt(cipherMatrix[i][j]+65);<br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 		} <br>
 						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 	pos=pos+2;<br>
-						&nbsp &nbsp &nbsp &nbsp }<br></p>
+						&nbsp &nbsp &nbsp &nbsp }</p>
 						<p class="p">
-					} <br>
+					} 
 				</p>
 			</div>
 			<div id="logic6"class="back">
@@ -248,35 +246,35 @@
         <div class="col3" id="output">
 			<center>
 				<h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000; font-weight:bold ;">Output</h2>
-				<div id="display" class="dis">
-					<p>Key matrix entered by user:</p>
+				<div id="display">
+					<p class="texta">Key matrix entered by user:</p>
 					<table border=1>
-						<tr>
+						<tr align="center">
 							<td id="00"></td>
 							<td id="01"></td>
 						</tr>
-						<tr>
+						<tr align="center">
 							<td id="10"></td>
 							<td id="11"></td>
 						</tr>
 					</table>
 				</div>
-				<div id="displayopt" class="dis">
-					<p>Please enter invertible matrix</p>
-				</div>
-				<div id="display1" class="dis">
-					<p>Plaintext entered by user:<span id="pl"></span></p>
-				</div>
-				<div id="display2" class="dis">
-					<p>Cipher text:<span id="ci"></span></p>
-				</div>
-				<div id="display3" class="dis">
-					<p>Plaintext corresponding to generated cipher text:<span id="cl"></span></p>
-				</div>
-				<div id="display4" class="dis">
-					<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p> 
-				</div>
 			<center>
+			<div id="displayopt" class="texta">
+					<p>Please enter invertible matrix</p>
+			</div>
+			<div id="display1" class="texta">
+					<p>Plain text:<span id="pl"></span></p>
+			</div>
+			<div id="display2" class="texta">
+					<p>Cipher text:<span id="ci"></span></p>
+			</div>
+			<div id="display3" class="texta">
+					<p>Decrypted cipher text:<span id="cl"></span></p>
+			</div>
+			<div id="display4" class="texta">
+					<p>Thankyou! ..Hope you understand implementation of encryption using hill cipher.</p> 
+			</div>
 		</div>
     </div>
 </body>
