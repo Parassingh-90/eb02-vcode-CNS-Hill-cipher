@@ -16,6 +16,8 @@ document.getElementById("display").style.display="none";
 	document.getElementById("display3").style.display="none";
 	document.getElementById("display4").style.display="none";
 	document.getElementById("pst").style.display="none";
+	document.getElementById("displayopt1").style.display="none";
+	document.getElementById("displayopt2").style.display="none";
 	
 	var log=2;
 	function displaykey()
@@ -29,6 +31,10 @@ document.getElementById("display").style.display="none";
 		var two=parseInt(document.getElementById('field01').value);
 		var three=parseInt(document.getElementById('field10').value);
 		var four=parseInt(document.getElementById('field11').value);
+		var one1=document.getElementById('field00').value;
+		var two2=document.getElementById('field01').value;
+		var three3=document.getElementById('field10').value;
+		var four4=document.getElementById('field11').value;
 		var res=(one*four)-(two*three)
 		if(res==0)
 		{
@@ -51,6 +57,15 @@ document.getElementById("display").style.display="none";
 	{	
 		var str=document.getElementById('f11').value;
 		document.getElementById('pl').innerHTML=str;
+		if(str=="")
+		{
+			document.getElementById("displayopt2").style.display="block";
+			document.getElementById("f1").style.display="none";
+			document.getElementById("f4").style.display="block";
+			document.getElementById("logic2").style.display="none";
+		}
+		else
+		{
 		document.getElementById("display1").style.display="block";
 		document.getElementById("f1").style.display="none";
 		document.getElementById("f2").style.display="block";
@@ -58,6 +73,7 @@ document.getElementById("display").style.display="none";
 		document.getElementById("logic3").style.display="block";
 		 document.getElementsByTagName('Submit').style.backgroundColor="gray";
 		document.getElementById("Submit").disabled=true;
+		}
 	}
 	function next()
 	{
@@ -161,5 +177,9 @@ document.getElementById("display").style.display="none";
 		document.getElementById("cl").innerHTML="";
 		document.getElementById("display4").style.display="none";
 		document.getElementById("pst").style.display="none";
+		document.getElementById("displayopt1").style.display="none";
+		document.getElementById("displayopt2").style.display="none";
 	
 	}
+
+	
