@@ -1,5 +1,5 @@
 ### Aim
-Write a program in jav to perform encryption and decryption using hill cipher.
+Write a program in java to perform encryption and decryption using hill cipher.
 ### Theory
 Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.<br>
 Two complications exist in picking the encrypting matrix:<br>
@@ -50,4 +50,5 @@ b) non invertible matrix<br>
 c) square matrix<br>
 d) rectangular matrix<br>
 ### References
-1.
+1.https://en.wikipedia.org/wiki/Hill_cipher#:~:text=In%20classical%20cryptography%2C%20the%20Hill,than%20three%20symbols%20at%20once.<br>
+2.https://www.geeksforgeeks.org/hill-cipher/
