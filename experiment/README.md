@@ -40,7 +40,7 @@ Q. Can you multiply a 3 x 4 matrix with a 4 x 2 matrix?<br>
 <b>a)Yes</b><br>
 b)No<br>
 
-Q.How many columns are in a 5 x 4 matrix?
+Q.How many columns are in a 5 x 4 matrix?<br>
 a)5<br>
 <b>b)4</b><br>
 c)2<br>
