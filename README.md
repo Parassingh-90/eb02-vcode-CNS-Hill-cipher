@@ -5,7 +5,7 @@
 <b> Experiment|     <b> 2.Write a Java Program to perform Encryption and Decryption using  Hill Cipher
 <h5> About the Lab (Objective) : </h5>
 <div align="justify">
-The objective of this lab is that student must able to know about encryption and decryption process to secure message using Hill Cipher.</div>
+This Lab is all about the Cryptography and Network Security Lab.</div>
 
 <h5> About the Experiment : </h5>
 
