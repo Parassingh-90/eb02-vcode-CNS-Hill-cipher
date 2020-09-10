@@ -62,7 +62,7 @@ b) a 5×5 table<br>
 c) vigenere table<br>
 d) matrix inversion<br>
 
-Q. What is poly graphic substitution cipher?<br>
+Q. Poly graphic substitution cipher means---<br>
 a) a substitution based cipher which uses multiple substitutions at different positions<br>
 b) a substitution based cipher which uses fixed substitution over entire plain text<br>
 <b>c) a substitution based cipher in which substitution is performed over a block of letters</b><br>
