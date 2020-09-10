@@ -21,9 +21,9 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the concept of matrix.|Remember|Define
-2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
-3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Solve
+1.| User will be able to: <br>recall the concept of matrix.|Remember|Recall
+2.| User will be able to: <br>explain the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
+3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Apply
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -56,7 +56,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|User will be able to recall the concept of matrix| Identify the inverse matrix|<div align="justify"> The inverse of a matrix exists if and only if it is a non-singular matrix.<br></div>A.True<br>B.False</b><br>(A)</b>
+1.|User will be able to recall the concept of matrix| Identify the inverse matrix|<div align="justify"> The inverse of a matrix exists if and only if it is a non-singular matrix.<br></div><b>A.True</b><br>B.False<br>
 2.|User will be able to understand the concept of encryption and decryption using Hill Cipher|Solve problem based on Hill Cipher|<div align="justify">1.Hill cipher requires prerequisite knowledge of___<br></div>A.Integration<br>B.Differentiation<br>C.Matrix Algebra<br>D.Differential Equation</b><br><b>(C)</b>
 3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|To Perform Encryption & Decryption.|<div align="justify">1.Hill cipher is an example of___<br></div>A.Mono-alphabetic Cipher<br>B.Substitution Cipher<br>C.Transposition Cipher <br>D.Additive Cipher</b><br>(A)</b>
 
