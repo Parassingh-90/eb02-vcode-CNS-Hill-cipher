@@ -79,5 +79,5 @@ c) square matrix<br>
 d) rectangular matrix<br>
 ### References
 1.Cryptography and Network Security by Atul Khate<br>
-2.Cryptography and Network Security by William Stallings
+2.Cryptography and Network Security by William Stallings<br>
 3.https://www.geeksforgeeks.org/hill-cipher/
