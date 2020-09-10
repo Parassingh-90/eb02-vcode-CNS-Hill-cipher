@@ -44,23 +44,23 @@ When the logical explanation will be completed the cipher text corresponding to 
 9)User can use “Reset” button to demonstrate hill cipher for another inputs .<br>
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
-Q. Hill cipher requires prerequisite knowledge of?<br>
+Q. Prerequisite knowledge of Hill cipher requires?<br>
 a) integration<br>
 b) differentiation<br>
 <b>c) matrix algebra</b><br>
 d) differential equation<br><br>
 
-Q. Hill cipher is an example of ____________<br>
+Q. Hill cipher is categories into which group ____________<br>
 a) mono-alphabetic cipher<br>
 <b>b) substitution cipher</b><br>
 c) transposition cipher<br>
 d) additive cipher<br><br>
 
-Q. Encryption in hill cipher is done using ______________<br>
+Q. In hill cipher Encryption is done using which method ______________<br>
 <b>a) matrix multiplication</b><br>
 b) a 5×5 table<br>
 c) vigenere table<br>
-d) matrix inversion<br><br>
+d) matrix inversion<br>
 
 Q. What is poly graphic substitution cipher?<br>
 a) a substitution based cipher which uses multiple substitutions at different positions<br>
@@ -68,7 +68,7 @@ b) a substitution based cipher which uses fixed substitution over entire plain t
 <b>c) a substitution based cipher in which substitution is performed over a block of letters</b><br>
 d) a transposition based cipher which uses fixed substitution over entire plain text.<br><br>
 
-Q. A key matrix used for encryption in hill cipher must be?<br>
+Q. In hill cipher a key matrix used for encryption must be?<br>
 <b>a) invertible matrix</b><br>
 b) non invertible matrix<br>
 c) square matrix<br>
