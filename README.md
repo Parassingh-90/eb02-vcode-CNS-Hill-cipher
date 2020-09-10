@@ -9,7 +9,7 @@ This Lab is all about the Cryptography and Network Security Lab.</div>
 
 <h5> About the Experiment : </h5>
 
-<div align="justify">Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26.To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.</div>
+<div align="justify">Hill cipher is  based on linear algebra which is an example of polygraphic substitution cipher.In hill cipher technique each letter is represented by a number like A=0,B=1,C=2...Z=25.In hill cipher take module 26 to encrypt a message.Each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix(in this 2X2 matrix is taken for key value) , against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.</div>
 
 <h5> Target Audience : </h5>
 
