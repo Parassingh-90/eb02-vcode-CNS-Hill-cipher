@@ -2,12 +2,12 @@
 Write a program in java to perform encryption and decryption using hill cipher.
 ### Theory
 <div align=justify">
-Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.<br>
-Two complications exist in picking the encrypting matrix:<br>
-1)Not all matrices have an inverse (see invertible matrix). The matrix will have an inverse if and only if its determinant is not zero.<br>
-2)The determinant of the encrypting matrix must not have any common factors with the modular base.<br>
+Hill cipher is based on linear algebra which is an example of polygraphic substitution cipher.In hill cipher technique each letter is represented by a number like A=0,B=1,C=2...Z=25.In hill cipher take module 26 to encrypt a message.Each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix(in this 2X2 matrix is taken for key value) , against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.<br>
+Rules for selecting the encrypting matrix:-<br>
+1)Not all matrices have an inverse. If matrix determinant is not zero that matrix will have an only inverse.<br>
+2)The encrypting matrix determinant must not have any common factors with the modular base.<br>
 
-Thus, if we work modulo 26 as above, the determinant must be nonzero, and must not be divisible by 2 or 13. If the determinant is 0, or has common factors with the modular base, then the matrix cannot be used in the Hill cipher, and another matrix must be chosen (otherwise it will not be possible to decrypt). Fortunately, matrices which satisfy the conditions to be used in the Hill cipher are fairly common.</div>
+So, if we work modulo 26 for above, the determinant must be nonzero, and it cannot be divisible by 2 or 13.The matrix cannot be used in the Hill cipher If the determinant is 0, or has common factors with the modular base, so another matrix must be chosen (otherwise it will not be possible to decrypt). Matrices which satisfy the above conditions to be used in the Hill cipher only.</div>
 ### Procedure
 1)User has to provide the key matrix in the text box provided in the first pane of the simulator.<br>
 2)Click on the “Submit” button. It takes you to second form in which you have to enter plaintext.<br>
