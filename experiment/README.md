@@ -78,5 +78,6 @@ b) non invertible matrix<br>
 c) square matrix<br>
 d) rectangular matrix<br>
 ### References
-1.https://en.wikipedia.org/wiki/Hill_cipher#:~:text=In%20classical%20cryptography%2C%20the%20Hill,than%20three%20symbols%20at%20once.<br>
-2.https://www.geeksforgeeks.org/hill-cipher/
+1.Cryptography and Network Security by Atul Khate<br>
+2.Cryptography and Network Security by William Stallings
+3.https://www.geeksforgeeks.org/hill-cipher/
