@@ -18,10 +18,9 @@
 <div align="justify">Focus Area is Reinforce theoretical concept because students will able to understand the basic working concept of HILL cipher step by step with the help of key matrix value.<br>
 #### 2. Learning Objectives and Cognitive Level
 
-
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the concept of matrix.|Remember|Recall
+1.| User will be able to: <br>recall the concept of matrix.|Recall|Recall
 2.| User will be able to: <br>explain the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
 3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Apply
 <br/>
