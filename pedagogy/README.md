@@ -2,8 +2,8 @@
 <b>Experiment: Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a></b><br>
 <b>Discipline |<b>Information Technology
 :--|:--|
-    <b> Lab |<b>Cryptography and Network Security Lab</b>
-    <b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher</b>
+    <b> Lab |<b>Cryptography and Network Security Lab
+    <b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher
 
 
 <h4> [1. Focus Area](#LO)
