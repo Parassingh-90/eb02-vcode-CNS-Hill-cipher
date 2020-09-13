@@ -3,7 +3,7 @@
 <b>Discipline |<b>Information Technology
 :--|:--|
 <b> Lab |<b>Cryptography and Network Security Lab
-<b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher
+    <b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher</b>
 
 
 <h4> [1. Focus Area](#LO)
@@ -15,7 +15,7 @@
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concepts<br>
-<div align="justify">Focus Area is Reinforce theoretical concept because students will able to understand the basic working concept of HILL cipher step by step with the help of key matrix value.<br>
+<div align="justify">Focus Area is Reinforce theoretical concept because students will able to understand the basic working concept of HILL cipher step by step with the help of key matrix value.</div><br>
 #### 2. Learning Objectives and Cognitive Level
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
