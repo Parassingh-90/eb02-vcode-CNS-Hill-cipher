@@ -77,7 +77,6 @@ Q. A key matrix used for encryption in hill cipher must be?<br>
 b) non invertible matrix<br>
 c) square matrix<br>
 d) rectangular matrix<br>
-### References
-1.Cryptography and Network Security by Atul Khate<br>
-2.Cryptography and Network Security by William Stallings<br>
-3.https://www.geeksforgeeks.org/hill-cipher/
+### References<br>
+1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
+2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
