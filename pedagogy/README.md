@@ -1,8 +1,8 @@
 ## Pedagogy (Round 1)
-<b>Experiment: Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a> </b><br>
+<b>Experiment: Write a Java Program to perform Encryption and Decryption using Hill Cipher <a name="top"></a></b><br>
 <b>Discipline |<b>Information Technology
 :--|:--|
-<b> Lab |<b>Cryptography and Network Security Lab
+    <b> Lab |<b>Cryptography and Network Security Lab</b>
     <b> Experiment|<b> 2.Write a Java Program to perform Encryption and Decryption using Hill Cipher</b>
 
 
@@ -21,7 +21,7 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>recall the concept of matrix.|Recall|Recall
-2.| User will be able to: <br>explain the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
+2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
 3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Apply
 <br/>
 <div align="right">
