@@ -93,7 +93,7 @@ d) rectangular matrix<br>
 
 
 ### 4. Mindmap:
-<img src="mindmap/dsBuffer.bmp"><br>
+<img src="mindmap/dsBuffer.bmp.png"><br>
 
 ### 5. Storyboard :
 <img src="storyboard/storyboard.gif">
