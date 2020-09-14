@@ -57,7 +57,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 :--|:--|:--|:-:
 1.|User will be able to recall the concept of matrix| Identify the inverse matrix|<div align="justify"> The inverse of a matrix exists if and only if it is a non-singular matrix.<br></div><b>A.True</b><br>B.False<br>
 2.|User will be able to understand the concept of encryption and decryption using Hill Cipher|Solve problem based on Hill Cipher|<div align="justify">Hill cipher requires prerequisite knowledge of___<br></div>A.Integration<br>B.Differentiation<br><b>C.Matrix Algebra</b><br>D.Differential Equation<br>
-3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|To Perform Encryption & Decryption.|<div align="justify">Hill cipher is an example of___<br></div><b>A.Mono-alphabetic Cipher</b><br>B.Substitution Cipher<br>C.Transposition Cipher <br>D.Additive Cipher<br>
+3.|User will be able to apply the concept of Hill Cipher and try to solve problem.|To Perform Encryption & Decryption.|<div align="justify">Hill cipher is an example of___<br></div><b>A.Poly-graphic Cipher</b><br>B.Substitution Cipher<br>C.Transposition Cipher <br>D.Additive Cipher<br>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
