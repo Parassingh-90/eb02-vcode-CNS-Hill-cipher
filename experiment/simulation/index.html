@@ -14,7 +14,7 @@
 			</marquee>
 		</div>
     </center>
-	<div style="margin-left:5px">
+	<div style="margin-left:5px" id="Dis">
         <div class="col1" id="input">
 			<center>
                 <h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;font-weight:bold;">Input</h2>
@@ -261,7 +261,7 @@
 				</div>
 			<center>
 			<div id="displayopt" class="texta">
-					<p>Please enter invertible matrix<br><br>A matrix M is  not invertible if |M|=0.eg.<br><img src="images\Capture.PNG"><br><br>Could we invert a 2x2 matrix such as A?<br><br>|A|=(7*10)-(14*5)=0<br><br><br>The determinant of matrix A is equal to zero, therefore, this matrix is NOT invertible.</p>
+					<p>Please enter invertible matrix<br><br>A matrix M is  not invertible if |M|=0.eg.<br><img src="Capture.PNG"><br><br>Could we invert a 2x2 matrix such as A?<br><br>|A|=(7*10)-(14*5)=0<br><br><br>The determinant of matrix A is equal to zero, therefore, this matrix is NOT invertible.</p>
 			</div>
 			<div id="display1" class="texta">
 					<p>Plain text:<span id="pl"></span></p>
@@ -283,8 +283,89 @@
 			</div>
 		</div>
     </div>
+	<div name="quizdiv" id="quizdiv">
+	<h1 style="text-align:center;">Attempt Task</h1>
+
+	<ol style="font-size:15px;font-weight:bold;">
+		<li>.What is matrix?<br>
+		<div style="font-weight:normal;font-size:14px">
+			<input type="radio" id="op11" name="q1" value="op11">
+			<label id="lop11">A set of numbers in rows and columns.</label><br>
+			<input type="radio" id="op12" name="q1" value="op12">
+			<label id="lop12">An equation of over 5 numbers or symbols .</label><br>
+			<input type="radio" id="op13" name="q1" value="op13">
+			<label  id="lop13">A method of finding the nth value of a series.</label><br>
+			<input type="radio" id="op14" name="q1" value="op14">
+			<label  id="lop14">A complicated number system.</label><br>	
+		</div>
+		</li>
+		<br>
+		
+		<li>Can you multiply a 3 x 4 matrix with a 4 x 2 matrix?<br>
+		<div style="font-weight:normal;font-size:14px">
+			<input type="radio" id="op21" name="q2" value="op21">
+			<label  id="lop21">No</label><br>
+			<input type="radio" id="op22" name="q2" value="op22">
+			<label id="lop22">Yes</label><br>
+		</div>
+		</li>
+		<br>
+		
+		<li>How many columns are in a 5 x 4 matrix?<br>
+		<div style="font-weight:normal;font-size:14px">
+			<input type="radio" id="op31" name="q3" value="op31">
+			<label id="lop31">5</label><br>
+			<input type="radio" id="op32" name="q3" value="op32">
+			<label id="lop32">4</label><br>
+			<input type="radio" id="op33" name="q3" value="op33">
+			<label id="lop33">20</label><br>
+			<input type="radio" id="op34" name="q3" value="op34">
+			<label id="lop34">9</label><br>	
+		</div>
+		</li>
+		<br>
+		
+		<li>You can multiply a 2X3 matrix by which matrix below?<br>
+		<div style="font-weight:normal;font-size:14px">
+			<input type="radio" id="op41" name="q4" value="op41">
+			<label id="lop41">2x2</label><br>
+			<input type="radio" id="op42" name="q4" value="op42">
+			<label id="lop42">3x13</label><br>
+			<input type="radio" id="op43" name="q4" value="op43">
+			<label id="lop43">2x1</label><br>
+			<input type="radio" id="op44" name="q4" value="op44">
+			<label id="lop44">2x3</label><br>
+			<input type="radio" id="op45" name="q4" value="op45">
+			<label id="lop45">None of the above</label><br>
+		</div>
+		</li>
+		<br>
+		
+		<li>.What must be true in order to determine inverse of matrix?<br>
+		<div style="font-weight:normal;font-size:14px">
+			<input type="radio" id="op51" name="q5" value="op51">
+			<label id="lop51">They must be square.</label><br>
+			<input type="radio" id="op52" name="q5" value="op52">
+			<label id="lop52">The dimensions/size must be equal.</label><br>
+			<input type="radio" id="op53" name="q5" value="op53">
+			<label id="lop53">The determinant can't equal 0.</label><br>
+			<input type="radio" id="op54" name="q5" value="op54">
+			<label id="lop54">None of the above</label><br>	
+		</div>
+		</li>
+		<br>
+		<input type="button" name="quizsubmit" id="quizsubmit" value="Submit" onclick="viewresult()">
+		<br><br>
+		<span id="score"></span>
+		
+	</ol>
+	<br>	
+	</div>
 </body>
 <script src="js/script.js"></script>
 </html>
+
+    
+
 
     
