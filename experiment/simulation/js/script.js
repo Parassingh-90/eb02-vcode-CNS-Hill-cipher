@@ -19,6 +19,9 @@ document.getElementById("display").style.display="none";
 	document.getElementById("displayopt1").style.display="none";
 	document.getElementById("displayopt2").style.display="none";
 	document.getElementById("Dis").style.display="none";
+	document.getElementById('quizsubmit1').disabled= true;
+	document.getElementById('quizsubmit1').style.backgroundColor='grey';
+	document.getElementById("Dis1").style.display="none";
 	
 	var log=2;
 	function displaykey()
@@ -137,6 +140,7 @@ document.getElementById("display").style.display="none";
 		var te=document.getElementById("f11").value;
 		document.getElementById("cl").innerHTML=te;
 		document.getElementById("display3").style.display="block";
+		document.getElementById("Dis1").style.display="block";
 	}
 	function no()
 	{
@@ -145,6 +149,7 @@ document.getElementById("display").style.display="none";
 		document.getElementById("f3").style.display="none";
 		document.getElementById("f4").style.display="block";
 		document.getElementById("display4").style.display="block";
+		document.getElementById("Dis1").style.display="block";
 	}
 	function reset()
 	{	
@@ -350,9 +355,169 @@ document.getElementById("display").style.display="none";
 			document.getElementById('score').innerHTML="Attempt all questions!";
 			document.getElementById("score").style.color = 'red';
 		}
+		document.getElementById('quizsubmit1').disabled= false;
+		document.getElementById('quizsubmit').style.backgroundColor='light green';
+		
+	}
+	function viewresult1()
+	{
 		document.getElementById("Dis").style.display="block";
 		document.getElementById("quizdiv").style.display="none";
 	}
+	function viewresult2()
+	{
+		var qans=0;
+		var selected=0;
+
+		//checking for total marked answers
+		if(document.getElementById("Pop11").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop12").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop13").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop14").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop21").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop22").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop31").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop32").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop33").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop34").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop41").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop42").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop43").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop44").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop23").checked==true){
+			selected=selected+1;
+		}
+		if(document.getElementById("Pop24").checked==true){
+			selected=selected+1;
+		}
+
+		if(selected==4){
+		//checking users response
+			if(document.getElementById("Pop11").checked==true){
+				document.getElementById("Plop11").style.color = 'red'; // red or #fffff
+			}
+			if(document.getElementById("Pop12").checked==true){
+				document.getElementById("Plop12").style.color = 'red';
+			}
+			if(document.getElementById("Pop13").checked==true){
+				document.getElementById("Plop13").style.color = 'red';
+			}
+			if(document.getElementById("Pop14").checked==true){
+				document.getElementById("Plop14").style.color = 'red';
+			}
+			if(document.getElementById("Pop21").checked==true){
+				document.getElementById("Plop21").style.color = 'red';
+			}
+			if(document.getElementById("Pop22").checked==true){
+				document.getElementById("Plop22").style.color = 'red';
+			}
+			if(document.getElementById("Pop31").checked==true){
+				document.getElementById("Plop31").style.color = 'red';
+			}
+			if(document.getElementById("Pop32").checked==true){
+				document.getElementById("Plop32").style.color = 'red';
+			}
+			if(document.getElementById("Pop33").checked==true){
+				document.getElementById("Plop33").style.color = 'red';
+			}
+			if(document.getElementById("Pop34").checked==true){
+				document.getElementById("Plop34").style.color = 'red';
+			}
+			if(document.getElementById("Pop41").checked==true){
+				document.getElementById("Plop41").style.color = 'red';
+			}
+			if(document.getElementById("Pop42").checked==true){
+				document.getElementById("Plop42").style.color = 'red';
+			}
+			if(document.getElementById("Pop43").checked==true){
+				document.getElementById("Plop43").style.color = 'red';
+			}
+			if(document.getElementById("Pop44").checked==true){
+				document.getElementById("Plop44").style.color = 'red';
+			}
+			if(document.getElementById("Pop23").checked==true){
+				document.getElementById("Plop23").style.color = 'red';
+			}
+			if(document.getElementById("Pop24").checked==true){
+				document.getElementById("Plop24").style.color = 'red';
+			}
+			
+		
+			//checking correct answers
+			if(document.getElementById("Pop11").checked==true){
+				qans=qans+1;
+				}
+			if(document.getElementById("Pop22").checked==true){
+				qans=qans+1;
+				}
+			if(document.getElementById("Pop32").checked==true){
+				qans=qans+1;
+				}
+			if(document.getElementById("Pop42").checked==true){
+				qans=qans+1;
+				}
+			
+			//marking correct answers
+			document.getElementById("Plop11").style.color = '#2fd677'; 
+			document.getElementById("Plop22").style.color = '#2fd677'; 
+			document.getElementById("Plop32").style.color = '#2fd677'; 
+			document.getElementById("Plop42").style.color = '#2fd677'; 
+			
+			
+			//Rating according to number of correct answers
+			if(qans<=2){
+				document.getElementById('score1').innerHTML="Beginner! Your score is "+qans+"/4.";
+				document.getElementById("score1").style.color = 'red';
+			}
+			else if(qans<4 && qans>2){
+				document.getElementById('score1').innerHTML="Amazing! Your score is "+qans+"/4.";
+				document.getElementById("score1").style.color = 'blue';
+			}
+			else{
+				document.getElementById('score1').innerHTML="Extraordinary! Your score is "+qans+"/4.";
+				document.getElementById("score1").style.color = '#2fd677'; //light green
+			}
+			
+			document.getElementById('quizsubmit2').disabled= true;
+			document.getElementById('quizsubmit2').style.backgroundColor='grey';
+			}
+		else{
+			document.getElementById('score1').innerHTML="Attempt all questions!";
+			document.getElementById("score1").style.color = 'red';
+		}
+		
+		
+	}
+
+	
 
 	
 
