@@ -15,7 +15,8 @@
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concepts<br>
-<div align="justify">Focus Area is Reinforce theoretical concept because students will able to understand the basic working concept of HILL cipher step by step with the help of key matrix value.</div><br>
+<div align="justify">Focus Area is Reinforce theoretical concept because students will able to understand the basic working concept of HILL cipher step by step with the help of key matrix value.</div>
+
 #### 2. Learning Objectives and Cognitive Level
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:--
