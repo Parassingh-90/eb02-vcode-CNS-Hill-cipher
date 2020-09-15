@@ -20,7 +20,7 @@
 #### 2. Learning Objectives and Cognitive Level
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:--
-1.| User will be able to: <br>recall the concept of matrix.|Recall|Recall
+1.| User will be able to: <br>recall the concept of matrix.|Remember|Recall
 2.| User will be able to: <br>understand the concept of encryption and decryption <br>using Hill Cipher.|Understand |Explain
 3.| User will be able to: <br>apply the concept of Hill Cipher <br> and perform encryption and decryption.|Apply |Apply
 <br/>
