@@ -72,5 +72,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Student will enter key matrix and plaintext. |<div align="justify">Cipher text for the given plaintext will be produced as output based on the key matrix. Logical explaination will also be given.</div>|<div align="justify">User will be able to have practical knowledge of hill cipher.</div>
+1.| Student will enter key matrix. |<div align="justify">Simulator will check whether key matrix is invertible matrix or not.</div>|<div align="justify">User will be able to know invertible matrix.</div><br>
+2.| Student will enter plaintext. |<div align="justify">Simulator will multiply key matrix and plaintext to generate ciphertext</div>|<div align="justify">User will be able to know how ciphertext is generated.</div><br>
+2.| Student will enter ciphertext. |<div align="justify">Simulator will multiply inverse key matrix and ciphertext to generate plaintext</div>|<div align="justify">User will be able to know how plaintext is generated.</div>
 
