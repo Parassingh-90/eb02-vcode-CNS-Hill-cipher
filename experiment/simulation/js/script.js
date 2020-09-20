@@ -117,7 +117,7 @@ document.getElementById("display").style.display="none";
 		encode=[];
 		for(var i=0;i<(n/2);i++)
 		{
-			message.push(str[pos],str[pos+1]);
+			message.push(myalpha.indexOf(str[pos]),myalpha.indexOf(str[pos+1]));
 			res1=one*(myalpha.indexOf(str[pos]))+two*(myalpha.indexOf(str[pos+1]));
 			res2=three*(myalpha.indexOf(str[pos]))+four*(myalpha.indexOf(str[pos+1]));			
 			res1=res1%26;
