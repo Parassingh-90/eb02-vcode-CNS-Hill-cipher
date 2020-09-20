@@ -21,10 +21,19 @@ document.getElementById("display").style.display="none";
 	document.getElementById("Dis1").style.display="none";
 	document.getElementById("encry").style.display="none";
 	
-	var log=1;
+	var log=0;
+
+	function msg(p00,p10){
+		document.getElementById('p00').innerHTML=p00;
+		document.getElementById('p10').innerHTML=p10;
+	}
+	function enc(m00,m10){
+		document.getElementById('m00').innerHTML=m00;
+		document.getElementById('m10').innerHTML=m10;
+	}
+
 	function displaykey()
-	{
-		console.log("harsh");
+	{		
 		document.getElementById('00').innerHTML=document.getElementById('field00').value;
 		document.getElementById('01').innerHTML=document.getElementById('field01').value;
 		document.getElementById('10').innerHTML=document.getElementById('field10').value;
@@ -76,12 +85,15 @@ document.getElementById("display").style.display="none";
 		document.getElementById("f1").style.display="none";
 		document.getElementById("f2").style.display="block";
 		document.getElementById("logic2").style.display="none";
-		document.getElementById("encry").style.display="block";
+		document.getElementById("logic3").style.display="block";
+		
+		
 		 document.getElementsByTagName('Submit').style.backgroundColor="gray";
 		}
 	}
 	function next()
 	{
+		document.getElementById("logic3").style.display="none";
 		var myalpha=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"," "];
 		var str=document.getElementById('f11').value;
 		var one=parseInt(document.getElementById('field00').value);
@@ -101,16 +113,29 @@ document.getElementById("display").style.display="none";
 			n=n+1;
 			
 		}
+		message=[];
+		encode=[];
 		for(var i=0;i<(n/2);i++)
 		{
+			message.push(str[pos],str[pos+1]);
 			res1=one*(myalpha.indexOf(str[pos]))+two*(myalpha.indexOf(str[pos+1]));
-			res2=three*(myalpha.indexOf(str[pos]))+four*(myalpha.indexOf(str[pos+1]));
+			res2=three*(myalpha.indexOf(str[pos]))+four*(myalpha.indexOf(str[pos+1]));			
 			res1=res1%26;
 			res2=res2%26;
+			encode.push(res1,res2);
 			cipher=cipher.concat(myalpha[res1]);
 			cipher=cipher.concat(myalpha[res2]);
 			pos=pos+2;
 		}	
+		console.log(message);
+		console.log(encode);
+		console.log(message[2*log],message[(2*log+1)]);	
+		console.log(encode[2*log],encode[2*log+1]);
+			
+		msg(message[2*log],message[(2*log+1)]);
+		enc(encode[2*log],encode[2*log+1]);
+		document.getElementById("encry").style.display="block";
+		
 		if(log==(n/2))
 		{	
 			document.getElementById("logic3").style.display="none";
@@ -123,6 +148,7 @@ document.getElementById("display").style.display="none";
 		{
 			document.getElementById("logic4").style.display="none";
 			document.getElementById("logic5").style.display="block";
+			document.getElementById("encry").style.display="none";
 		}
 		if(log==(n/2)+2)
 		{
@@ -131,9 +157,10 @@ document.getElementById("display").style.display="none";
 			document.getElementById("f3").style.display="block";
 			document.getElementById("logic5").style.display="none";
 			document.getElementById("logic6").style.display="block";
+			document.getElementById("encry").style.display="none";
 			
 		}
-			
+		
 		log=log+1;
 		
 	}
@@ -337,7 +364,7 @@ document.getElementById("display").style.display="none";
 			}
 			
 			document.getElementById('quizsubmit2').disabled= true;
-			document.getElementById('quizsubmit2').style.backgroundColor='grey';
+			document.getElementById('quizsubmit2').style.background='grey';
 			}
 		else{
 			document.getElementById('score1').innerHTML="Attempt all questions!";
@@ -348,6 +375,9 @@ document.getElementById("display").style.display="none";
 	}
 
 	
+
+	
+
 
 	
 
