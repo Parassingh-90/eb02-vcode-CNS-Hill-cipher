@@ -191,7 +191,7 @@ document.getElementById("display").style.display="none";
 	}
 	function reset()
 	{	
-		log=1;
+		log=0;
 		document.getElementById('field00').value="";
 		document.getElementById('field01').value="";
 		document.getElementById('field10').value="";
