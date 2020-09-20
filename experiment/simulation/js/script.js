@@ -31,7 +31,9 @@ document.getElementById("display").style.display="none";
 		document.getElementById('m00').innerHTML=m00;
 		document.getElementById('m10').innerHTML=m10;
 	}
-
+	function ciph(c){
+		document.getElementById("cip").innerHTML=c;
+	}
 	function displaykey()
 	{		
 		document.getElementById('00').innerHTML=document.getElementById('field00').value;
@@ -115,6 +117,7 @@ document.getElementById("display").style.display="none";
 		}
 		message=[];
 		encode=[];
+		cip=[];
 		for(var i=0;i<(n/2);i++)
 		{
 			message.push(myalpha.indexOf(str[pos]),myalpha.indexOf(str[pos+1]));
@@ -125,6 +128,7 @@ document.getElementById("display").style.display="none";
 			encode.push(res1,res2);
 			cipher=cipher.concat(myalpha[res1]);
 			cipher=cipher.concat(myalpha[res2]);
+			cip.push(cipher);
 			pos=pos+2;
 		}	
 		console.log(message);
@@ -134,6 +138,7 @@ document.getElementById("display").style.display="none";
 			
 		msg(message[2*log],message[(2*log+1)]);
 		enc(encode[2*log],encode[2*log+1]);
+		ciph(cip[log]);
 		document.getElementById("encry").style.display="block";
 		
 		if(log==(n/2))
