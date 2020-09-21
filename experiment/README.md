@@ -1,7 +1,7 @@
 ### Aim
 Student must be able to understand the concept of encryption and decryption process using Hill cipher.
 ### Theory
-<div align="justify">Hill cipher is based on linear algebra which is an example of polygraphic substitution cipher.In hill cipher technique each letter is represented by a number like A=0,B=1,C=2...Z=25.In hill cipher take module 26 to encrypt a message.Each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix(in this 2X2 matrix is taken for key value) , against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption.The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.</div><br>
+<div align="justify">Hill cipher is based on linear algebra which is an example of polygraphic substitution cipher. In hill cipher technique each letter is represented by a number like A=0,B=1,C=2...Z=25. In hill cipher take module 26 to encrypt a message. Each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix(in this 2X2 matrix is taken for key value) , against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption. The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26). In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.</div><br>
 Rules for selecting the encrypting matrix:-<br>
 1)Not all matrices have an inverse. If matrix determinant is not zero that matrix will have an only inverse.<br>
 2)The encrypting matrix determinant must not have any common factors with the modular base.<br>
@@ -19,26 +19,26 @@ So, if we work modulo 26 for above, the determinant must be nonzero, and it cann
 9)User can use “Reset” button to demonstrate hill cipher for another inputs .<br>
 ### Pre Test
 Q.What is matrix?<br>
-a)An equation of over 5 numbers or symbols .<br>
-<b>b)A set of numbers in rows and columns.</b><br>
-c)A method of finding the nth value of a series.<br>
-d)A complicated number system.<br>
+a. An equation of over 5 numbers or symbols .<br>
+<b>b. A set of numbers in rows and columns.</b><br>
+c. A method of finding the nth value of a series.<br>
+d. A complicated number system.<br>
 
 Q.What must be true in order to determine inverse of matrix?<br>
-a)They must be square.<br>
-b)The dimensions/size must be equal.<br>
-<b>c)The determinant can't equal 0.</b><br>
-d)The column of the 1st must equal the row of the 2nd.<br>
+a. They must be square.<br>
+b. The dimensions/size must be equal.<br>
+<b>c. The determinant can't equal 0.</b><br>
+d. The column of the 1st must equal the row of the 2nd.<br>
 
 Q.You can multiply a 2X3 matrix by which matrix below?<br>
-a)2X2<br>
-b)2X1<br>
-<b>c)3X12</b><br>
-d)2X3<br>
+a. 2X2<br>
+b. 2X1<br>
+<b>c. 3X12</b><br>
+d. 2X3<br>
 
 Q. Can you multiply a 3 x 4 matrix with a 4 x 2 matrix?<br>
-<b>a)Yes</b><br>
-b)No<br>
+<b>a. Yes</b><br>
+b. No<br>
 
 Q.How many columns are in a 5 x 4 matrix?<br>
 a)5<br>
@@ -48,34 +48,34 @@ d)9<br>
 
 ### Post Test
 Q. Hill cipher requires prerequisite knowledge of?<br>
-a) integration<br>
-b) differentiation<br>
-<b>c) matrix algebra</b><br>
-d) differential equation<br><br>
+a. Integration<br>
+b. Differentiation<br>
+<b>c. Matrix algebra</b><br>
+d. Differential equation<br><br>
 
 Q. Hill cipher is an example of ____________<br>
-a) mono-alphabetic cipher<br>
-<b>b) substitution cipher</b><br>
-c) transposition cipher<br>
-d) additive cipher<br><br>
+<b>a. Polygraphic substitution cipher</b><br>
+b. Mono-substitution cipher<br>
+c. Transposition cipher<br>
+d. Additive cipher<br><br>
 
-Q. Encryption in hill cipher is done using ______________<br>
-<b>a) matrix multiplication</b><br>
-b) a 5×5 table<br>
-c) vigenere table<br>
-d) matrix inversion<br><br>
+Q. Encryption in hill cipher is done using ______<br>
+<b>a. Matrix multiplication</b><br>
+b. a 5×5 table<br>
+c. Vigenere table<br>
+d. Matrix inversion<br><br>
 
 Q. What is poly graphic substitution cipher?<br>
-a) a substitution based cipher which uses multiple substitutions at different positions<br>
-b) a substitution based cipher which uses fixed substitution over entire plain text<br>
-<b>c) a substitution based cipher in which substitution is performed over a block of letters</b><br>
-d) a transposition based cipher which uses fixed substitution over entire plain text.<br><br>
+a. A Substitution based cipher which uses multiple substitutions at different positions<br>
+b. A Substitution based cipher which uses fixed substitution over entire plain text<br>
+<b>c. A Substitution based cipher in which substitution is performed over a block of letters</b><br>
+d. A Transposition based cipher which uses fixed substitution over entire plain text.<br><br>
 
 Q. A key matrix used for encryption in hill cipher must be?<br>
-<b>a) invertible matrix</b><br>
-b) non invertible matrix<br>
-c) square matrix<br>
-d) rectangular matrix<br>
+<b>a) Invertible Matrix</b><br>
+b) Non Invertible Matrix<br>
+c) Square Matrix<br>
+d) Rectangular Matrix<br>
 ### References<br>
 1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
 2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
