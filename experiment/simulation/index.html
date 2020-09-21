@@ -20,8 +20,8 @@
                 <h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;font-weight:bold;">Input</h2>
 				<div class="f" id="f">
 					<p class="texts">Enter 2x2 size key matrix</p>
-					<input type="text" id="field00" size="3">
-					<input type="text" id="field01" size="3">
+					<input type="text" id="field00" size="3" >
+					<input type="text" id="field01" size="3" >
 					<br>
 					<input type="text" id="field10" size="3">
 					<input type="text" id="field11" size="3">
@@ -242,7 +242,8 @@
 				</p>
 			</div>
 			<div id="encry">
-				<table  border=0 >
+				<p class="hum1">{"A":0, "B":1, "C":2, "D":3, "E":4, "F":5, "G":6, "H":7, "I":8, "J":9, "K":10, "L":11, "M":12, "N":13, "O":14, "P":15, "Q":16, "R":17, "S":18, "T":19, "U":20, "V":21, "W":22, "X":23, "Y":24, "Z":25}</p>
+				<table  border=0  class="hum">
 						<tr align="center">
 							<td id="k00"></td>
 							<td id="k01"></td>
@@ -282,6 +283,9 @@
 			<center>
 			<div id="displayopt" class="texta">
 					<p>Please enter invertible matrix<br><br>A matrix M is  not invertible if |M|=0.eg.<br><img src="images/Capture.PNG"><br><br>Could we invert a 2x2 matrix such as A?<br><br>|A|=(7*10)-(14*5)=0<br><br><br>The determinant of matrix A is equal to zero, therefore, this matrix is NOT invertible.</p>
+			</div>
+			<div id="displayopt38" class="texta">
+					<p>Please enter only numbers between 0 to 25.</p>
 			</div>
 			<div id="display1" class="texta">
 					<p>Plain text:<span id="pl"></span></p>
@@ -392,6 +396,13 @@
 
     
 
+
+
+    
+
+    
+
+    
 
 
     
