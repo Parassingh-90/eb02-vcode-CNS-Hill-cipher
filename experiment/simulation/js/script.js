@@ -20,8 +20,10 @@ document.getElementById("display").style.display="none";
 	document.getElementById("displayopt2").style.display="none";
 	document.getElementById("Dis1").style.display="none";
 	document.getElementById("encry").style.display="none";
+	document.getElementById("displayopt38").style.display="none";
 	
 	var log=0;
+	
 
 	function msg(p00,p10){
 		document.getElementById('p00').innerHTML=p00;
@@ -36,10 +38,12 @@ document.getElementById("display").style.display="none";
 	}
 	function displaykey()
 	{		
+		
 		document.getElementById('00').innerHTML=document.getElementById('field00').value;
 		document.getElementById('01').innerHTML=document.getElementById('field01').value;
 		document.getElementById('10').innerHTML=document.getElementById('field10').value;
 		document.getElementById('11').innerHTML=document.getElementById('field11').value;
+		
 		var one=parseInt(document.getElementById('field00').value);
 		var two=parseInt(document.getElementById('field01').value);
 		var three=parseInt(document.getElementById('field10').value);
@@ -49,7 +53,7 @@ document.getElementById("display").style.display="none";
 		var three3=document.getElementById('field10').value;
 		var four4=document.getElementById('field11').value;
 		var res=(one*four)-(two*three)
-		if(res==0)
+		if(res==0 || check())
 		{
 			document.getElementById("displayopt").style.display="block";
 			document.getElementById("pst").style.display="block";
@@ -191,39 +195,7 @@ document.getElementById("display").style.display="none";
 	}
 	function reset()
 	{	
-		log=0;
-		document.getElementById('field00').value="";
-		document.getElementById('field01').value="";
-		document.getElementById('field10').value="";
-		document.getElementById('field11').value="";
-		document.getElementById("ci").value="";
-		document.getElementById('f11').value="";
-		document.getElementById("f").style.display="block";
-		document.getElementById("display1").style.display="none";
-		document.getElementById("display").style.display="none";
-		document.getElementById("f2").style.display="none";
-		document.getElementById("display2").style.display="none";
-		document.getElementById("logic2").style.display="none";
-		document.getElementById("logic3").style.display="none";
-		document.getElementById("f1").style.display="none";	
-		document.getElementById("logic1").style.display="block";
-		document.getElementById("Submit").disabled=false;
-		document.getElementById("logic4").style.display="none";
-		document.getElementById("logic5").style.display="none";
-		document.getElementById("displayopt").style.display="none";
-		document.getElementById("f3").style.display="none";
-		document.getElementById("logic6").style.display="none";
-		document.getElementById("logic6").style.display="none";
-		document.getElementById("f4").style.display="none";
-		document.getElementById("logic7").style.display="none";
-		document.getElementById("logic8").style.display="none";
-		document.getElementById("display3").style.display="none";
-		document.getElementById("cl").innerHTML="";
-		document.getElementById("display4").style.display="none";
-		document.getElementById("pst").style.display="none";
-		document.getElementById("displayopt1").style.display="none";
-		document.getElementById("displayopt2").style.display="none";
-		document.getElementById("encry").style.display="none";
+		window.location.reload();
 	
 	}
 	function viewresult2()
@@ -377,6 +349,20 @@ document.getElementById("display").style.display="none";
 		}
 		
 		
+	}
+	function check()
+	{		
+		console.log("harsh");
+		var a=document.getElementById('field00').value;
+		var b=document.getElementById('field01').value;
+		var c=document.getElementById('field10').value;
+		var d=document.getElementById('field11').value;
+		if((!(isNaN(parseInt(a))) && parseInt(a)>=0 && parseInt(a)<=25) && (!(isNaN(parseInt(b))) && parseInt(b)>=0 && parseInt(b)<=25) && (!(isNaN(parseInt(c))) && parseInt(c)>=0 && parseInt(c)<=25) && (!(isNaN(parseInt(d))) && parseInt(d)>=0 && parseInt(d)<=25)){
+			return false;
+		}
+		else{
+			return true;
+		}
 	}
 
 	
