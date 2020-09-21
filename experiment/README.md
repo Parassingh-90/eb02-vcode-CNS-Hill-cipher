@@ -8,17 +8,17 @@ Rules for selecting the encrypting matrix:-<br>
 
 So, if we work modulo 26 for above, the determinant must be nonzero, and it cannot be divisible by 2 or 13.The matrix cannot be used in the Hill cipher If the determinant is 0, or has common factors with the modular base, so another matrix must be chosen (otherwise it will not be possible to decrypt). Matrices which satisfy the above conditions to be used in the Hill cipher only.</div>
 ### Procedure
-1)User has to provide the key matrix in the text box provided in the first pane of the simulator.<br>
-2)Click on the “Submit” button. It takes you to second form in which you have to enter plaintext.<br>
-3)Click on “ Submit“ button.Then two "Next" and "Reset"buttons appears in the first pane.<br>
-4)Click on “next “button. It provides the logical explanation of the output i.e. how the cipher text coressponding to entered plain text is being calculated.<br>
-5)Click on “Next” button. The cipher text is displayed as output in the third pane, with the end of logical explanation of encryption.<br>
-6)Click on “Next” button.Two "Yes" and "No" buttons appears in the first pane from where user has to chosse whether he want to go for decryption or not.<br>
-7)If user click on "Yes".It provides the plain text corresponding to generated cipher text with the end of logical explaination of decryption and user can use “Reset” button to demonstrate hill cipher for another inputs.<br>
-8) If user click on "No"."Reset" button will appear in the the first pane which can be used by the user to demonstrate hill cipher for another inputs.<br>
-9)User can use “Reset” button to demonstrate hill cipher for another inputs .<br>
+1. User has to provide the key matrix in the text box provided in the first pane of the simulator.<br>
+2. Click on the “Submit” button. It takes you to second form in which you have to enter plaintext.<br>
+3. Click on “ Submit“ button.Then two "Next" and "Reset"buttons appears in the first pane.<br>
+4. Click on “next “button. It provides the logical explanation of the output i.e. how the cipher text coressponding to entered plain text is being calculated.<br>
+5. Click on “Next” button. The cipher text is displayed as output in the third pane, with the end of logical explanation of encryption.<br>
+6. Click on “Next” button.Two "Yes" and "No" buttons appears in the first pane from where user has to chosse whether he want to go for decryption or not.<br>
+7. If user click on "Yes".It provides the plain text corresponding to generated cipher text with the end of logical explaination of decryption and user can use “Reset” button to demonstrate hill cipher for another inputs.<br>
+8. If user click on "No"."Reset" button will appear in the the first pane which can be used by the user to demonstrate hill cipher for another inputs.<br>
+9. User can use “Reset” button to demonstrate hill cipher for another inputs .<br>
 ### Pre Test
-Q.What is matrix?<br>
+Q. What is matrix?<br>
 a. An equation of over 5 numbers or symbols .<br>
 <b>b. A set of numbers in rows and columns.</b><br>
 c. A method of finding the nth value of a series.<br>
@@ -41,10 +41,10 @@ Q. Can you multiply a 3 x 4 matrix with a 4 x 2 matrix?<br>
 b. No<br>
 
 Q.How many columns are in a 5 x 4 matrix?<br>
-a)5<br>
-<b>b)4</b><br>
-c)2<br>
-d)9<br>
+a. 5<br>
+<b>b. 4</b><br>
+c. 2<br>
+d. 9<br>
 
 ### Post Test
 Q. Hill cipher requires prerequisite knowledge of?<br>
@@ -72,10 +72,10 @@ b. A Substitution based cipher which uses fixed substitution over entire plain t
 d. A Transposition based cipher which uses fixed substitution over entire plain text.<br><br>
 
 Q. A key matrix used for encryption in hill cipher must be?<br>
-<b>a) Invertible Matrix</b><br>
-b) Non Invertible Matrix<br>
-c) Square Matrix<br>
-d) Rectangular Matrix<br>
+<b>a. Invertible Matrix</b><br>
+b. Non Invertible Matrix<br>
+c. Square Matrix<br>
+d. Rectangular Matrix<br>
 ### References<br>
-1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
-2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
+1. Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
+2. Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
