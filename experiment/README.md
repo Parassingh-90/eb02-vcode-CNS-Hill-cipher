@@ -3,8 +3,8 @@ Student must be able to understand the concept of encryption and decryption proc
 ### Theory
 <div align="justify">Hill cipher is based on linear algebra which is an example of polygraphic substitution cipher. In hill cipher technique each letter is represented by a number like A=0,B=1,C=2...Z=25. In hill cipher take module 26 to encrypt a message. Each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix(in this 2X2 matrix is taken for key value) , against modulus 26. To decrypt the message, each block is multiplied by the inverse of the matrix used for encryption. The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26). In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix.</div><br>
 Rules for selecting the encrypting matrix:-<br>
-1)Not all matrices have an inverse. If matrix determinant is not zero that matrix will have an only inverse.<br>
-2)The encrypting matrix determinant must not have any common factors with the modular base.<br>
+1. Not all matrices have an inverse. If matrix determinant is not zero that matrix will have an only inverse.<br>
+2. The encrypting matrix determinant must not have any common factors with the modular base.<br>
 
 So, if we work modulo 26 for above, the determinant must be nonzero, and it cannot be divisible by 2 or 13.The matrix cannot be used in the Hill cipher If the determinant is 0, or has common factors with the modular base, so another matrix must be chosen (otherwise it will not be possible to decrypt). Matrices which satisfy the above conditions to be used in the Hill cipher only.</div>
 ### Procedure
