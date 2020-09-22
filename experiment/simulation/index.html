@@ -241,32 +241,13 @@
 					} 
 				</p>
 			</div>
-			<div id="encry">
-				<p class="hum1">{"A":0, "B":1, "C":2, "D":3, "E":4, "F":5, "G":6, "H":7, "I":8, "J":9, "K":10, "L":11, "M":12, "N":13, "O":14, "P":15, "Q":16, "R":17, "S":18, "T":19, "U":20, "V":21, "W":22, "X":23, "Y":24, "Z":25}</p>
-				<table  border=0  class="hum">
-						<tr align="center">
-							<td id="k00"></td>
-							<td id="k01"></td>
-							<td rowspan=2>x</td>
-							<td id="p00">p00</td>
-							<td rowspan=2>=</td>
-							<td id="m00">m00</td>
-						</tr>
-						<tr align="center">
-							<td id="k10"></td>
-							<td id="k11"></td>
-							<td id="p10">p10</td>
-							<td id="m10">m10</td>
-						</tr>
-				</table>
-				<p>Cipher text:<span id="cip"></span></p>
 			
-			</div>
 			
 		</div>
         <div class="col3" id="output">
 			<center>
 				<h2 style="background-color: #ccc; height:50px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000; font-weight:bold ;">Output</h2>
+				
 				<div id="display">
 					<p class="texta">Key matrix entered by user:</p>
 					<table border=1>
@@ -289,6 +270,27 @@
 			</div>
 			<div id="display1" class="texta">
 					<p>Plain text:<span id="pl"></span></p>
+			</div>
+			<div id="encry" class="texta">
+				<p class="hum1">{"A":0, "B":1, "C":2, "D":3, "E":4, "F":5, "G":6, "H":7, "I":8, "J":9, "K":10, "L":11, "M":12, "N":13, "O":14, "P":15, "Q":16, "R":17, "S":18, "T":19, "U":20, "V":21, "W":22, "X":23, "Y":24, "Z":25}</p>
+				<table  border=0  class="hum">
+						<tr align="center">
+							<td id="k00"></td>
+							<td id="k01"></td>
+							<td rowspan=2>x</td>
+							<td id="p00">p00</td>
+							<td rowspan=2>=</td>
+							<td id="m00">m00</td>
+						</tr>
+						<tr align="center">
+							<td id="k10"></td>
+							<td id="k11"></td>
+							<td id="p10">p10</td>
+							<td id="m10">m10</td>
+						</tr>
+				</table>
+				<p>Cipher text:<span id="cip"></span></p>
+			
 			</div>
 			<div id="display2" class="texta">
 					<p>Cipher text:<span id="ci"></span></p>
@@ -331,13 +333,13 @@
 		<li>Hill cipher is an example of ____________<br>
 		<div style="font-weight:normal;font-size:14px">
 			<input type="radio" id="Pop21">
-			<label id="Plop21">Transposition cipher</label><br>
+			<label id="Plop21">mono-alphabetic cipher</label><br>
 			<input type="radio" id="Pop22">
-			<label id="Plop22">Polygraphic substitution cipher</label><br>
+			<label id="Plop22">transposition cipher</label><br>
 			<input type="radio" id="Pop23">
-			<label  id="Plop23">Mono-substitution cipher</label><br>
+			<label  id="Plop23">substitution cipher</label><br>
 			<input type="radio" id="Pop24">
-			<label  id="Plop24">Additive cipher</label><br>	
+			<label  id="Plop24">additive cipher</label><br>	
 		</div>
 		</li>
 		
@@ -345,13 +347,13 @@
 			<li>Encryption in hill cipher is done using _________<br>
 			<div style="font-weight:normal;font-size:14px">
 			<input type="radio" id="Pop31">
-			<label id="Plop31">a 5×5 Table</label><br>
+			<label id="Plop31">a 5×5 table</label><br>
 			<input type="radio" id="Pop32">
-			<label id="Plop32">Matrix Multiplication.</label><br>
+			<label id="Plop32">matrix multiplication.</label><br>
 			<input type="radio" id="Pop33">
-			<label  id="Plop33">Vigenere Table</label><br>
+			<label  id="Plop33">vigenere table</label><br>
 			<input type="radio" id="Pop34">
-			<label  id="Plop34">Matrix Inversion</label><br>	
+			<label  id="Plop34">matrix inversion</label><br>	
 		</div>
 		</li>
 		
@@ -360,13 +362,13 @@
 		<li>A key matrix used for encryption in hill cipher must be?.<br>
 		<div style="font-weight:normal;font-size:14px">
 			<input type="radio" id="Pop41">
-			<label id="Plop41">Non Invertible Matrix</label><br>
+			<label id="Plop41">non invertible matrix</label><br>
 			<input type="radio" id="Pop42">
-			<label id="Plop42"> Invertible Matrix</label><br>
+			<label id="Plop42"> invertible matrix</label><br>
 			<input type="radio" id="Pop43">
-			<label  id="Plop43">Square Matrix</label><br>
+			<label  id="Plop43">square matrix</label><br>
 			<input type="radio" id="Pop44">
-			<label  id="Plop44">Rectangular Matrix</label><br>	
+			<label  id="Plop44">rectangular matrix</label><br>	
 		</div>
 		</li>
 		<br>
@@ -383,6 +385,27 @@
 </body>
 <script src="js/script.js"></script>
 </html>
+
+    
+
+
+    
+
+    
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
 
     
 
