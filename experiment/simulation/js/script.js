@@ -143,23 +143,20 @@ document.getElementById("display").style.display="none";
 		msg(message[2*log],message[(2*log+1)]);
 		enc(encode[2*log],encode[2*log+1]);
 		ciph(cip[log]);
-		document.getElementById("encry").style.display="block";
 		
-		if(log==(n/2))
+		if(log==0)
 		{	
 			document.getElementById("logic3").style.display="none";
 			document.getElementById("logic4").style.display="block";
-			document.getElementById("encry").style.display="none";
-			document.getElementById("display2").style.display="block";
-			document.getElementById("ci").innerHTML=cipher;
+			document.getElementById("encry").style.display="block";
 		}
-		if(log==(n/2)+1)
+		if((log>=1)&& (log<(n/2)))
 		{
 			document.getElementById("logic4").style.display="none";
 			document.getElementById("logic5").style.display="block";
-			document.getElementById("encry").style.display="none";
+			document.getElementById("encry").style.display="block";
 		}
-		if(log==(n/2)+2)
+		if(log==(n/2))
 		{
 			document.getElementById("f2").style.display="none";
 			document.getElementById("f1").style.display="none";
@@ -167,6 +164,8 @@ document.getElementById("display").style.display="none";
 			document.getElementById("logic5").style.display="none";
 			document.getElementById("logic6").style.display="block";
 			document.getElementById("encry").style.display="none";
+			document.getElementById("display2").style.display="block";
+			document.getElementById("ci").innerHTML=cipher;
 			
 		}
 		
