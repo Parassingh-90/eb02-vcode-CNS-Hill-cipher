@@ -35,7 +35,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u> Expository
 ###### Assessment Method: Formative
 
-<u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
+<u> <b>Description: </b></u>
 <br>
 <div align="justify">
 Firstly user input key in term of 2x2 matrix after that user also need to provide plaintext(message).Based on key matrix plaintext is divided into chunks.After that encryption is perform using key matrix and message chunk matrix to generate ciphertext.To decrypt the ciphertext find inverse of key matrix and perform matrix multiplication with ciphertext.</div> 
