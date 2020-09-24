@@ -15,6 +15,7 @@
             border: medium solid black;
 			border-radius: 2%;
             margin: 1px;
+			overflow: auto;
         }
         .col2{
                 float: left;
@@ -24,6 +25,7 @@
 				border: medium solid black;
 				border-radius: 2%;
 				margin: 1px;
+				overflow: auto;
         }
 
         .col3{
@@ -34,6 +36,7 @@
             border: medium solid black;
 			border-radius: 2%;
             margin: 1px;
+			overflow: auto;
         }
 		.texts
 		{
