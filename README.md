@@ -22,7 +22,7 @@ This experiment is alligned with an introductory course on Cryptography
 
 <h5> Universities Mapped : </h5>
 
-Dr. A.P.J. Abdul Kalam Technical University(AKTU)
+Dr. A.P.J. Abdul Kalam Technical University(AKTU),Lucknow
 
 <b>Name of Developer | <b> Paras Nath Singh
 :--|:--|
