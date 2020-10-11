@@ -92,10 +92,10 @@
     {
       question: "Hill cipher requires prerequisite knowledge of?",  ///// Write the question inside double quotes
       answers: {
-        a: "integration",                  ///// Write the option 1 inside double quotes
-        b: "differentiation",                  ///// Write the option 2 inside double quotes
-        c: "matrix algebra",                  ///// Write the option 3 inside double quotes
-        d: "differential equation"                   ///// Write the option 4 inside double quotes
+        a: "Integration",                  ///// Write the option 1 inside double quotes
+        b: "Differentiation",                  ///// Write the option 2 inside double quotes
+        c: "Matrix Algebra",                  ///// Write the option 3 inside double quotes
+        d: "Differential Equation"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
@@ -103,38 +103,38 @@
     {
       question: "Encryption in hill cipher is done using ______________",  ///// Write the question inside double quotes
       answers: {
-        a: "matrix multiplication",                  ///// Write the option 1 inside double quotes
-        b: "a 5×5 table",                  ///// Write the option 2 inside double quotes
-        c: "vigenere table",                  ///// Write the option 3 inside double quotes
-        d: "matrix inversion"                   ///// Write the option 4 inside double quotes
+        a: "Matrix Multiplication",                  ///// Write the option 1 inside double quotes
+        b: "A 5×5 table",                  ///// Write the option 2 inside double quotes
+        c: "Vigenere Table",                  ///// Write the option 3 inside double quotes
+        d: "Matrix Inversion"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
     question: "What is poly graphic substitution cipher?",  ///// Write the question inside double quotes
       answers: {
-        a: "a substitution based cipher which uses multiple substitutions at different positions",                  ///// Write the option 1 inside double quotes
-        b: "a substitution based cipher which uses fixed substitution over entire plain text",                  ///// Write the option 2 inside double quotes
-        c: "a substitution based cipher in which substitution is performed over a block of letters",                  ///// Write the option 3 inside double quotes
-        d: "a transposition based cipher which uses fixed substitution over entire plain text."                   ///// Write the option 4 inside double quotes
+        a: "A substitution based cipher which uses multiple substitutions at different positions",                  ///// Write the option 1 inside double quotes
+        b: "A substitution based cipher which uses fixed substitution over entire plain text",                  ///// Write the option 2 inside double quotes
+        c: "A substitution based cipher in which substitution is performed over a block of letters",                  ///// Write the option 3 inside double quotes
+        d: "A transposition based cipher which uses fixed substitution over entire plain text."                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                
     question: "A key matrix used for encryption in hill cipher must be?",  ///// Write the question inside double quotes
       answers: {
-        a: "invertible matrix",                  ///// Write the option 1 inside double quotes
-        b: "non invertible matrix",                  ///// Write the option 2 inside double quotes
-        c: "square matrix",                  ///// Write the option 3 inside double quotes
-        d: "rectangular matrix"                   ///// Write the option 4 inside double quotes
+        a: "Invertible Matrix",                  ///// Write the option 1 inside double quotes
+        b: "Non Invertible Matrix",                  ///// Write the option 2 inside double quotes
+        c: "Square Matrix",                  ///// Write the option 3 inside double quotes
+        d: "Rectangular Matrix"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                
     question: "Hill cipher is an example of ____________",  ///// Write the question inside double quotes
       answers: {
-        a: "mono-alphabetic cipher",                  ///// Write the option 1 inside double quotes
-        b: "substitution cipher",                  ///// Write the option 2 inside double quotes
-        c: "transposition cipher",                  ///// Write the option 3 inside double quotes
-        d: "additive cipher"                   ///// Write the option 4 inside double quotes
+        a: "Mono-alphabetic cipher",                  ///// Write the option 1 inside double quotes
+        b: "Polygraphic substitution cipher",                  ///// Write the option 2 inside double quotes
+        c: "Transposition cipher",                  ///// Write the option 3 inside double quotes
+        d: "Additive cipher"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                
