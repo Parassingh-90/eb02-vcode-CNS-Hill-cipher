@@ -77,5 +77,5 @@ b. Non Invertible Matrix<br>
 c. Square Matrix<br>
 d. Rectangular Matrix<br>
 ### References<br>
-1. Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
-2. Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
+1. Cryptography and Network Security, Atul Khate, 2nd edition, TMH, 2006<br>
+2. Cryptography and Network security, William Stallings, 4th edition, Pearson Education, 2010
